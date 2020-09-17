@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9681549e-f0a8-4759-a201-43fcf7389438" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3. Mo_ta_thuat_toan/Bai_tap/Cau_truc_dieu_kien.png" beforeDir="false" afterPath="$PROJECT_DIR$/3. Mo_ta_thuat_toan/Bai_tap/Cau_truc_dieu_kien.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3. Mo_ta_thuat_toan/Bai_tap/Tim_gia_tri_lon_nhat_trong_chuoi.png" beforeDir="false" afterPath="$PROJECT_DIR$/3. Mo_ta_thuat_toan/Bai_tap/Tim_gia_tri_lon_nhat_trong_chuoi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Git_HTML/GitProject/GitProject" beforeDir="false" afterPath="$PROJECT_DIR$/4. Git_HTML/GitProject/GitProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. Git_HTML/GitProject/GitProject" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/4. Git_HTML/GitProject/GitProject" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1hUGyPapoJb9KJmFKEdbTPfi1wc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,7 +45,7 @@
       <workItem from="1600058513267" duration="236000" />
       <workItem from="1600058797256" duration="87000" />
       <workItem from="1600269303588" duration="1247000" />
-      <workItem from="1600314303865" duration="2725000" />
+      <workItem from="1600314303865" duration="3326000" />
     </task>
     <servers />
   </component>
