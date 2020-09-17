@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9681549e-f0a8-4759-a201-43fcf7389438" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4. Git_HTML/Thuc_hanh/Su_dung_the_html_co_ban.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. Git_HTML/Bai_tap/Tao_trang_CV_ca_nhan.html" beforeDir="false" afterPath="$PROJECT_DIR$/4. Git_HTML/Bai_tap/Tao_trang_CV_ca_nhan.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
       <workItem from="1600058513267" duration="236000" />
       <workItem from="1600058797256" duration="87000" />
       <workItem from="1600269303588" duration="1247000" />
-      <workItem from="1600314303865" duration="4867000" />
+      <workItem from="1600314303865" duration="7955000" />
     </task>
     <servers />
   </component>
