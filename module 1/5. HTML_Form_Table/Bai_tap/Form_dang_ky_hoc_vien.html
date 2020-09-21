@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form đăng ký học viên</title>
+    <style>
+        body {
+            background-color: burlywood;
+        }
+        h1 {
+            background-color: aqua;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<h1>ĐĂNG KÝ HỌC VIÊN</h1>
+<form>
+    <pre>
+    <span style="color: blue">Họ và tên</span> <input type="text" name="name"><br>
+    <span style="color: blue">Ngày sinh</span> <input type="date" name="birthday"><br>
+    <span style="color: blue">Giới tính</span> <input type="radio" name="gender">Nam<input type="radio" name="gender">Nữ<br>
+    <span style="color: blue">Địa chỉ</span>   <textarea name="address"></textarea><br>
+    <span style="color: blue">Lớp</span>       <select name="class"><option>--Chọn lớp--</option>
+                         <option>C01</option>
+                         <option>C02</option>
+                         <option>C03</option>
+                         </select><br>
+    <span style="color: blue">Email</span>     <input type="email" name="email"><br>
+    <span style="color: blue">Điện thoại</span><input type="number" name="phonenumber"><br>
+              <input type="submit" name="submit"> <input type="reset" name="reset">
+    </pre>
+</form>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký học viên</title>
+    <style>
+        .body-web {
+            width: 50%;
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+<div class="body-web">
+<h1 style="color: blue; background-color: burlywood; text-align: center">ĐĂNG KÝ HỌC VIÊN</h1>
+<form>
+    <table style="width: 100%">
+        <tr>
+            <td style="font-size: 20px; padding-left: 10%">Họ và tên</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td style="font-size: 20px; padding-left: 10%">Ngày sinh</td>
+            <td><input type="date" name="birthday" style="margin: 5px"></td>
+        </tr>
+        <tr>
+            <td style="font-size: 20px; padding-left: 10%">Giới tính</td>
+            <td><input type="radio" name="gender" style="margin: 5px">Nam<input type="radio" name="gender" style="margin: 5px">Nữ</td>
+        </tr>
+        <tr>
+            <td style="font-size: 20px; padding-left: 10%">Địa chỉ</td>
+            <td><textarea cols="20" rows="5" style="margin: 5px"></textarea></td>
+        </tr>
+        <tr>
+            <td style="font-size: 20px; padding-left: 10%">Lớp</td>
+            <td><select style="margin: 5px">
+                <option>Java</option>
+                <option>PHP</option>
+                <option>HTML</option>
+                <option>front end</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td style="font-size: 20px; padding-left: 10%">Email</td>
+            <td><input type="email" name="email" style="margin: 5px"></td>
+        </tr>
+        <tr>
+            <td style="font-size: 20px; padding-left: 10%">Điện thoại</td>
+            <td><input type="number" name="phone" style="margin: 5px"></td>
+        </tr>
+    </table>
+    <div style="text-align: center; margin: 5px">
+        <input type="submit" name="submit" value="Đăng Ký">
+        <input type="reset" name="reset" value="Nhập Laị">
+    </div>
+</form>
+</div>
+</body>
+</html>

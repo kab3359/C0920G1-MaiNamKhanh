@@ -2,6 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9681549e-f0a8-4759-a201-43fcf7389438" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/5. HTML_Form_Table/Bai_tap/Bai_tap_nang_cao_canledar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. HTML_Form_Table/Bai_tap/Bai_tap_them.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. HTML_Form_Table/Bai_tap/Bai_tap_them_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. HTML_Form_Table/Bai_tap/Form_dang_ky_hoc_vien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. HTML_Form_Table/Bai_tap/Form_dang_ky_nguoi_dung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. HTML_Form_Table/Bai_tap/Form_lay_survey_khach_hang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. HTML_Form_Table/Bai_tap/Form_so_thich.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. HTML_Form_Table/Bai_tap/Tao_bang_don_gian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. HTML_Form_Table/Bai_tap/Tao_bang_nang_cao_chess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. HTML_Form_Table/Bai_tap/mau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. HTML_Form_Table/Thuc_hanh/Form_tim_kiem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. HTML_Form_Table/Thuc_hanh/Tao_bang_co_ban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. HTML_Form_Table/Thuc_hanh/Tao_bang_nang_cao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. HTML_Form_Table/Thuc_hanh/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. HTML_Form_Table/Thuc_hanh/simpleform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. HTML_Form_Table/mau.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4. Git_HTML/Bai_tap/Tao_trang_CV_ca_nhan.html" beforeDir="false" afterPath="$PROJECT_DIR$/4. Git_HTML/Bai_tap/Tao_trang_CV_ca_nhan.html" afterDir="false" />
     </list>
@@ -13,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -31,6 +48,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,7 +64,12 @@
       <workItem from="1600058513267" duration="236000" />
       <workItem from="1600058797256" duration="87000" />
       <workItem from="1600269303588" duration="1247000" />
-      <workItem from="1600314303865" duration="7955000" />
+      <workItem from="1600314303865" duration="10226000" />
+      <workItem from="1600357041371" duration="7951000" />
+      <workItem from="1600426647243" duration="5052000" />
+      <workItem from="1600501164354" duration="8163000" />
+      <workItem from="1600593689683" duration="7740000" />
+      <workItem from="1600650644084" duration="18442000" />
     </task>
     <servers />
   </component>
@@ -57,5 +81,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="236" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1600315432554" />
+    <state x="184" y="7" key="SettingsEditor" timestamp="1600357151865">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600357151865" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1600676805747">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1600676805747" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600512863165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600512863165" />
   </component>
 </project>
