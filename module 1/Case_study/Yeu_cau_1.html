@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yêu cầu 1</title>
+    <style>
+        body {
+            background-image: url("62371531.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .table1 {
+            width: 50%;
+            font-size: 25px;
+            float: left;
+        }
+        input select {
+            height: 25px;
+        }
+        .btn {
+            padding: 10px;
+            text-align: center;
+        }
+        .table2 {
+            width: 50%;
+            font-size: 25px;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <table class="table1">
+        <tr>
+            <th colspan="2"><h2>Thông tin khách hàng</h2></th>
+        </tr>
+        <tr>
+            <td>Họ và tên:</td>
+            <td><input type="text" name="name" id="name"></td>
+        </tr>
+        <tr>
+            <td>Số CMND:</td>
+            <td><input type="text" name="IDcard" id="IDcard"></td>
+        </tr>
+        <tr>
+            <td>Ngày tháng năm sinh:</td>
+            <td><input type="date" name="birthday" id="birthday"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email" id="email"></td>
+        </tr>
+        <tr>
+            <td>Địa chỉ:</td>
+            <td><input type="text" name="address" id="address"></td>
+        </tr>
+        <tr>
+            <td>Loai Customer:</td>
+            <td>
+                <select id="customer_special">
+                    <option>Diamond</option>
+                    <option>Platinum</option>
+                    <option>Gold</option>
+                    <option>Silver</option>
+                    <option>Member</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Giảm giá:</td>
+            <td><input type="text" name="discount" id="discount" placeholder="Nếu không có điền số 0"></td>
+        </tr>
+        <tr>
+            <td>Số lương đi kèm:</td>
+            <td><input type="number" name="number" id="number"></td>
+        </tr>
+        <tr>
+            <td>Số ngày thuê:</td>
+            <td><input type="text" name="rent_day" id="rent_day"></td>
+        </tr>
+        <tr>
+            <td>Loại dịch vụ</td>
+            <td>
+                <select id="service_special">
+                    <option value="Villa">Villa 500$/1 ngày</option>
+                    <option value="House">House 300$/1 ngày</option>
+                    <option value="Room">Room 100$/1 ngày</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Loại phòng thuê:</td>
+            <td>
+                <select id="room_special">
+                    <option>Vip</option>
+                    <option>Business</option>
+                    <option>Normal</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="btn">
+                <input type="button" name="submit" value="Xác nhân" onclick="myFunction()">
+                <input type="reset" name="reset" value="Nhâp lai">
+            </td>
+        </tr>
+    </table>
+    <table class="table2">
+        <tr>
+            <th colspan="2"><h2>Xác nhân thông tin khách hàng</h2></th>
+        </tr>
+        <tr>
+            <td>Họ và tên:</td>
+            <td id="confirm_name"></td>
+        </tr>
+        <tr>
+            <td>Số CMND:</td>
+            <td id="confirm_IDcard"></td>
+        </tr>
+        <tr>
+            <td>Ngày tháng năm sinh:</td>
+            <td id="confirm_birthday"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td id="confirm_email"></td>
+        </tr>
+        <tr>
+            <td>Địa chỉ:</td>
+            <td id="confirm_address"></td>
+        </tr>
+        <tr>
+            <td>Loai customer:</td>
+            <td id="confirm_customer_special"></td>
+        </tr>
+        <tr>
+            <td>Giảm giá:</td>
+            <td id="confirm_discount"></td>
+        </tr>
+        <tr>
+            <td>Số lương đi kèm:</td>
+            <td id="confirm_number"></td>
+        </tr>
+        <tr>
+            <td>Số ngày thuê:</td>
+            <td id="confirm_rent_day"></td>
+        </tr>
+        <tr>
+            <td>Loại dich vụ:</td>
+            <td id="confirm_service_special"></td>
+        </tr>
+        <tr>
+            <td>Loại phòng thuê:</td>
+            <td id="confirm_room_special"></td>
+        </tr>
+        <tr>
+            <td>Số tiền phải trả:</td>
+            <td id="pay"></td>
+        </tr>
+    </table>
+</form>
+<script src="Yeu_cau_1.js"></script>
+</body>
+</html>

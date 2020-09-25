@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9681549e-f0a8-4759-a201-43fcf7389438" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6. Tong_quan_JavaScript/Thuc_hanh/Hien_thi_dau_ra.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6. Tong_quan_JavaScript/Thuc_hanh/Nhung_javascript.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6. Tong_quan_JavaScript/Thuc_hanh/Thong_bao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/UNG_DUNG_MAY_TINH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/Ung_dung_chuyen_doi_tien_te.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/Ung_dung_may_tinh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/Ung_dung_may_tinh_nang_cao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieu_du_lieu_toan_tu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/currency.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/phep_tinh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/thuc_hanh/Su_dung_toan_tu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/thuc_hanh/khai_bao_bien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/thuc_hanh/toan_tu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/bai_tap/May_tinh_don_gian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/bai_tap/Ung_dung_loveme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/bai_tap/chi_so_can_nang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/Kiem_tra_nam_nhuan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/Kiem_tra_nam_nhuan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/LUYEN_TAP_IF_ELSE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/LUYEN_TAP_IF_ELSE_IF.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/Luyen_tap_if_else.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/Luyen_tap_if_else_if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/mau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/mau.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case_study/Yeu_cau_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case_study/Yeu_cau_1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/UNG_DUNG_MAY_TINH.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/Ung_dung_chuyen_doi_tien_te.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/Ung_dung_may_tinh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieu_du_lieu_toan_tu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/currency.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/phep_tinh.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +76,10 @@
       <workItem from="1600745079618" duration="8373000" />
       <workItem from="1600781981804" duration="6110000" />
       <workItem from="1600813331162" duration="3105000" />
-      <workItem from="1600823062163" duration="14090000" />
+      <workItem from="1600823062163" duration="15897000" />
+      <workItem from="1600868249045" duration="6775000" />
+      <workItem from="1600911230104" duration="16524000" />
+      <workItem from="1600958194973" duration="11689000" />
     </task>
     <servers />
   </component>
