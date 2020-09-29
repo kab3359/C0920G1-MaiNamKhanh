@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <title>Yêu cầu 1</title>
     <style>
-        body {
-            background-image: url("62371531.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
+        /*body {*/
+        /*    background-image: url("62371531.jpg");*/
+        /*    background-repeat: no-repeat;*/
+        /*    background-size: cover;*/
+        /*}*/
         .table1 {
             width: 50%;
             font-size: 25px;
@@ -51,6 +51,10 @@
             <td><input type="email" name="email" id="email"></td>
         </tr>
         <tr>
+            <td></td>
+            <td id="alert_email"></td>
+        </tr>
+        <tr>
             <td>Địa chỉ:</td>
             <td><input type="text" name="address" id="address"></td>
         </tr>
@@ -68,7 +72,7 @@
         </tr>
         <tr>
             <td>Giảm giá:</td>
-            <td><input type="text" name="discount" id="discount" placeholder="Nếu không có điền số 0"></td>
+            <td><input type="text" name="discount" id="discount"></td>
         </tr>
         <tr>
             <td>Số lương đi kèm:</td>
@@ -157,8 +161,26 @@
             <td>Số tiền phải trả:</td>
             <td id="pay"></td>
         </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="button" name="edit"  value="Edit" onclick="myEdit()">
+            </td>
+        </tr>
     </table>
 </form>
+
+<!--<form>-->
+<!--    <input type="email" id="email">-->
+<!--    <input type="button" onclick="myFunction()">-->
+<!--</form>-->
+
+<!--<form>-->
+<!--    <input type="text" id="name">-->
+<!--    <div></div>-->
+<!--    <input type="button" onclick="xoaKhoangTrang()">-->
+<!--</form>-->
+
+
 <script src="Yeu_cau_1.js"></script>
 </body>
 </html>

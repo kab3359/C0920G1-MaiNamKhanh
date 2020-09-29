@@ -2,26 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9681549e-f0a8-4759-a201-43fcf7389438" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/bai_tap/May_tinh_don_gian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/bai_tap/Ung_dung_loveme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/bai_tap/chi_so_can_nang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/Kiem_tra_nam_nhuan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/Kiem_tra_nam_nhuan.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/LUYEN_TAP_IF_ELSE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/LUYEN_TAP_IF_ELSE_IF.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/Luyen_tap_if_else.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/Luyen_tap_if_else_if.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/mau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/mau.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case_study/Yeu_cau_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case_study/Yeu_cau_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.Cau_truc_lap_1/thuc_hanh/Su_dung_vong_lap_do_while.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.Cau_truc_lap_1/thuc_hanh/Su_dung_vong_lap_for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.Cau_truc_lap_1/thuc_hanh/Su_dung_vong_lap_long_nhau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.Cau_truc_lap_1/thuc_hanh/Su_dung_vong_lap_while.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.Cau_truc_vong_lap_2/Bai_tap/Hien_thi_cac_so_nguyen_to_dau_tien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.Cau_truc_vong_lap_2/Sinh_bang_cuu_chuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/bai_tap/Good_fast_cheap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/bai_tap/May_tinh_don_gian/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/bai_tap/May_tinh_don_gian/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mau/1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/UNG_DUNG_MAY_TINH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/Ung_dung_chuyen_doi_tien_te.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/Ung_dung_may_tinh.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieu_du_lieu_toan_tu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/currency.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7. Bien_kieu_du_lieu_va_toan_tu/bai_tap/phep_tinh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/bai_tap/Ung_dung_loveme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case_study/Yeu_cau_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Case_study/Yeu_cau_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case_study/Yeu_cau_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Case_study/Yeu_cau_1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +48,16 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+  <component name="RunManager">
+    <configuration name="Yeu_cau_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Case_study/Yeu_cau_1.js" working-dir="$PROJECT_DIR$/Case_study">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Yeu_cau_1.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -80,6 +84,12 @@
       <workItem from="1600868249045" duration="6775000" />
       <workItem from="1600911230104" duration="16524000" />
       <workItem from="1600958194973" duration="11689000" />
+      <workItem from="1600997635005" duration="15704000" />
+      <workItem from="1601104260689" duration="1882000" />
+      <workItem from="1601189177170" duration="16298000" />
+      <workItem from="1601255508276" duration="18014000" />
+      <workItem from="1601318178214" duration="6952000" />
+      <workItem from="1601341022113" duration="15999000" />
     </task>
     <servers />
   </component>
@@ -103,9 +113,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1600676805747" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600841324710">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601282960222">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600841324710" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601282960222" />
   </component>
 </project>

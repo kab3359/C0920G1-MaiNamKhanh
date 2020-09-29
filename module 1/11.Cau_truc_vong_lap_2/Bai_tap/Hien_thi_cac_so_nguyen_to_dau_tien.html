@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = prompt('Nhập số lượng số nguyên tố đầu tiên');
+    let count = 0;
+    let n = 2; //Số nguyên tố
+    let i = 2;
+    let num = "";
+    while (count < number) {
+        while (i <= (n-1)) {
+            if (n % i != 0) {
+                i++;
+            }else {
+                n++;
+                i = 2;
+            }
+        } num = num + ' ' + n;
+        n++;
+        count++;
+        i = 2;
+    }
+    alert("Các số nguyên tố là:" +num);
+</script>
+</body>
+</html>
