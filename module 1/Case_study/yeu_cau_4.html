@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" name="add" value="Add Name Customer" onclick="addNameCustomer()">
+<input type="button" name="delete" value="Delete Customer" onclick="delNameCustomer()">
+<input type="button" name="display" value="show" onclick="showNameCustomer()">
+<script>
+    let arrNameCustomers = [];
+    function addNameCustomer() {
+        let num = parseInt(prompt("nhập số lượng khách hàng muốn thêm"));
+        for (let i = 0; i<num; i++) {
+            arrNameCustomers[i] = prompt("nhập tên khách hàng");
+        }
+        alert('danh sách customer:' + arrNameCustomers);
+    }
+    function delNameCustomer() {
+        let i = 0;
+        let temp = false;
+        let name = prompt('nhập tên muốn xóa');
+        while (i < arrNameCustomers.length) {
+            if (name === arrNameCustomers[i]) {
+                arrNameCustomers.splice(i,1);
+                temp = true;
+            } else {
+                i++;
+            }
+        } if (temp) {
+            alert(arrNameCustomers);
+        } else {
+            alert('tên ban nhâp ko có trong danh sách');
+            alert('danh sách customer:' + arrNameCustomers);
+        }
+    }
+    function showNameCustomer() {
+        arrNameCustomers.sort();
+        alert('danh sách customer:' + arrNameCustomers);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<script>-->
+<!--    let myColor = ["Red", "Green", "White", "Black"];-->
+<!--    document.writeln(myColor.join());-->
+<!--</script>-->
+
+<!--<script>-->
+<!--    let num=prompt();-->
+<!--    // const str = num.toString();-->
+<!--    let result = [num[0]];-->
+
+<!--    for(let x=1; x<num.length; x++)-->
+<!--    {-->
+<!--        if((num[x-1]%2 === 0)&&(num[x]%2 === 0))-->
+<!--        {-->
+<!--            result.push('-', num[x]);-->
+<!--        }-->
+<!--        else-->
+<!--        {-->
+<!--            result.push(num[x]);-->
+<!--        }-->
+<!--    }-->
+<!--    alert(result.join(''));-->
+<!--</script>-->
+
+<script>
+    let str = prompt();
+    let UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let LOWER = 'abcdefghijklmnopqrstuvwxyz';
+    let result = [];
+
+    for(let x=0; x<str.length; x++)
+    {
+        if(UPPER.indexOf(str[x]) !== -1)
+        {
+            result.push(str[x].toLowerCase());
+        }
+        else if(LOWER.indexOf(str[x]) !== -1)
+        {
+            result.push(str[x].toUpperCase());
+        }
+        else
+        {
+            result.push(str[x]);
+        }
+    }
+    alert(result.join(''));
+</script>
+</body>
+</html>

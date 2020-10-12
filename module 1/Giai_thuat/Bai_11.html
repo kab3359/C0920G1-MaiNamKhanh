@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [2,4,6,1,2,30];
+    let sum = 0;
+    let b = [];
+    for (let i=0; i< a.length; i++) {
+        if (a[i] % 2 !== 0) {
+            sum += parseInt(a[i]);
+        }
+    }
+    alert(sum);
+    let k = prompt('phần tử k');
+    let check = true;
+    for (let i = 0; i<a.length; i++) {
+        if (a[i] == k) {
+            alert(k + ' ở vị trí' + i);
+            check = false;
+            break;
+        }
+    } if (check) {
+        alert('ko có' + k)
+    }
+    a.sort(function(a, b) {
+        return (a - b) ;
+    });
+    alert(a);
+    a.push(15);
+    a.sort(function(a, b) {
+        return (a - b) ;
+    });
+    alert(a)
+</script>
+</body>
+</html>

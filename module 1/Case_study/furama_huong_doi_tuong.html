@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="furama_huong_doi_tuong.js"></script>
+</head>
+<body>
+<script>
+    let listCustomer = [];
+    function displayMainMenu (){
+        document.body.innerHTML ="";
+        let mainMenu = '<input type="button" name="Add" value="Thêm khách hàng" onclick="addNewCustomer()"><br><br>' +
+            '<input type="button" name="Display" value="Hiển thị khách hàng" onclick="displayInformationCustomer()"><br><br>' +
+            '<input type="button" name="Edit" value="Chỉnh sửa thông tin khách hàng" onclick="editInformationCustomer()"><br><br>' +
+            '<input type="button" name="Delete" value="Xóa khách hàng" onclick="deleteCustomer()"><br><br>'
+
+        document.body.innerHTML = mainMenu
+    }
+    function addNewCustomer() {
+        document.body.innerHTML ="";
+        let newCustotmer = '<table><tr><th colspan="2"><h2>Thông tin khách hàng</h2></th></tr>' +
+            '<tr><td>Ho và tên:</td><td><input type="text" name="name" id="name"></td></tr>' +
+            '<tr><td>Số CMND</td><td><input type="text" name="IDcard" id="IDcard"></td></tr>' +
+            '<tr><td>Ngày tháng năm sinh:</td><td><input type="text" name="birthday" id="birthday"></td></tr>' +
+            '<tr><td>Email:</td><td><input type="text" name="email" id="email"></td></tr>' +
+            '<tr><td>Địa chỉ:</td><td><input type="text" name="address" id="address"></td></tr>' +
+            '<tr><td>Loại customer:</td><td><select id="specialCustomer"><option>Diamond</option><option>Platinum</option>' +
+            '<option>Gold</option><option>Silver</option><option>Member</option></select></td></tr>' +
+            '<tr><td>Số người đi kèm:</td><td><input type="text" name="numOfPerson" id="numOfPerson"></td></tr>' +
+            '<tr><td>Số ngày thuê:</td><td><input type="text" name="rentDay" id="rentDay"></td></tr>' +
+            '<tr><td>Loại dịch vụ:</td><td><select id="specialService"><option>Villa</option><option>House</option><option>Room</option></select></td></tr>' +
+            '<tr><td>Loại phòng thuê:</td><td><select id="specialRoom"><option>Vip</option><option>Business</option><option>Normal</option></select></td></tr>' +
+            '<tr><td colspan="2" style="text-align: center"><input type="button" name="submit" value="Xác nhân" onclick="confirmCustomer()">' +
+            '<input type="reset" name="reset" value="Nhập lại"><input type="button" name="return" value="Quay lại menu" onclick="displayMainMenu()"></td></tr></table>';
+
+        document.body.innerHTML = newCustotmer
+    }
+    function confirmCustomer() {
+        let cus = new customer()
+        cus.setName(document.getElementById('name').value)
+        cus.setIDcard(document.getElementById('IDcard').value)
+        cus.setBirthday(document.getElementById('birthday').value)
+        cus.setEmail(document.getElementById('email').value)
+        cus.setAddress(document.getElementById('address').value)
+        cus.setSpecialCustomer(document.getElementById('specialCustomer').value)
+        cus.setNumOfPerson(document.getElementById('numOfPerson').value)
+        cus.setRentDay(document.getElementById('rentDay').value)
+        cus.setSpecialService(document.getElementById('specialService').value)
+        cus.setSpecialRoom(document.getElementById('specialRoom').value)
+        if(cus.getIDcard() !== undefined && cus.getBirthday() !== undefined && cus.getNumOfPerson() !== undefined && cus.getRentDay() !== undefined) {
+            let confirmCustomer = '<table><tr><th colspan="2"><h2>Thông tin khách hàng</h2></th></tr>'+
+                '<tr><td>Họ và tên:</td><td><p id="name">'+cus.getName()+'</p></td></tr>' +
+                '<tr><td>Số CMND:</td><td><p id="IDcard">'+cus.getIDcard()+'</p></td></tr>' +
+                '<tr><td>Ngày tháng năm sinh:</td><td><p id="birthday">'+cus.getBirthday()+'</p></td></tr>' +
+                '<tr><td>Email</td><td><p id="email">'+cus.getEmail()+'</p></td></tr>' +
+                '<tr><td>Địa chỉ</td><td><p id="address">'+cus.getAddress()+'</p></td></tr>' +
+                '<tr><td>Loại Customer</td><td><p id="specialCustomer">'+cus.getSpecialCustomer()+'</p></td></tr>' +
+                '<tr><td>Số người đi kèm</td><td><p id="numOfPerson">'+cus.getNumOfPerson()+'</p></td></tr>' +
+                '<tr><td>Số ngày thuê</td><td><p id="rentDay">'+cus.getRentDay()+'</p></td></tr>' +
+                '<tr><td>Loại dịch vụ</td><td><p id="specialService">'+cus.getSpecialService()+'</p></td></tr>' +
+                '<tr><td>Loại phòng thuê</td><td><p id="specialRoom">'+cus.getSpecialRoom()+'</p></td></tr>' +
+                '<tr><td><input type="button" name="submit" value="Xác nhận" onclick="pushCustomer()">' +
+                '<input type="button" name="edit" value="Sửa lại" onclick="addNewCustomer()"> </td></tr></table>';
+            document.body.innerHTML = confirmCustomer
+        }
+    }
+    function pushCustomer() {
+        let cus = new customer()
+        cus.setName(document.getElementById('name').textContent)
+        cus.setIDcard(document.getElementById('IDcard').textContent)
+        cus.setBirthday(document.getElementById('birthday').textContent)
+        cus.setEmail(document.getElementById('email').textContent)
+        cus.setAddress(document.getElementById('address').textContent)
+        cus.setSpecialCustomer(document.getElementById('specialCustomer').textContent)
+        cus.setNumOfPerson(document.getElementById('numOfPerson').textContent)
+        cus.setRentDay(document.getElementById('rentDay').textContent)
+        cus.setSpecialService(document.getElementById('specialService').textContent)
+        cus.setSpecialRoom(document.getElementById('specialRoom').textContent)
+        listCustomer.push(cus);
+        alert(listCustomer)
+    }
+    displayMainMenu()
+</script>
+</body>
+</html>

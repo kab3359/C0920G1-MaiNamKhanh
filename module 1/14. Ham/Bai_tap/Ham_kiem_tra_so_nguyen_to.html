@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = parseInt(prompt('nhập số'));
+    let check = true;
+    function isPrime(number) {
+        for (let i=2; i < number; i++ ) {
+            if (number % i == 0) {
+                check = false;
+                break;
+            }
+        } return check;
+    }
+    let num = isPrime(number);
+    if (check && number > 1) {
+        alert(number + 'là số nguyen tố') ;
+    } else {
+        alert(number + 'ko số nguyên tố');
+    }
+</script>
+</body>
+</html>

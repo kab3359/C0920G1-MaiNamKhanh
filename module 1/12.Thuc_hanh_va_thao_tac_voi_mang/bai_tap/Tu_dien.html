@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+<input type="text" name="word" id="word">
+<input type="button" name="submit" value="dich" onclick="dichFunction()">
+</form>
+<script>
+    let word = document.getElementById("word");
+let english = ["fuck you", "boar", "Damn it" ];
+let vietnamese = ["Phúc đù", "Hưng rèo", "Tiện Nhân"];
+function dichFunction() {
+    for (let i = 0; i < english.length; i++) {
+        if (word.value === english[i]) {
+            word.value = vietnamese[i];
+            break;
+        } if (word.value === vietnamese[i]) {
+            word.value = english[i];
+            break
+        } else {
+            alert('sai');
+            break;
+        }
+    }
+}
+</script>
+</body>
+</html>

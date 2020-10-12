@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas" width="500" height="300" style="border:1px solid #000000"></canvas>
+<span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+<canvas id="canvas" width="500" height="300" style="border:1px solid #000000"></canvas>
+<script>
+    // let c = document.getElementById("myCanvas");
+    // let ctx = c.getContext("2d");
+    // ctx.moveTo(0,0);
+    // ctx.lineTo(200,100);
+    // ctx.stroke();
+    //
+    //
+    // ctx.beginPath();
+    // ctx.arc(100,50,40,0,2*Math.PI);
+    // ctx.fill();
+    //
+    // ctx.font = "30px Arial";
+    // ctx.fillText("Hello World",10,50);
+
+    // let grd = ctx.createLinearGradient(0,0,200,0);
+    // grd.addColorStop(0,"red");
+    // grd.addColorStop(1,"white");
+    //
+    // ctx.fillStyle = grd;
+    // ctx.fillRect(0,0,200,100);
+
+    // let grd = ctx.createRadialGradient(75,50,5,90,60,100);
+    // grd.addColorStop(0,"red");
+    // grd.addColorStop(1,"white");
+    //
+    // ctx.fillStyle = grd;
+    // ctx.fillRect(0,0,200,100);
+
+    let canvas = document.getElementById('myCanvas');
+    if (canvas.getContext) {
+        let ctx = canvas.getContext('2d');
+        ctx.fillStyle = "red";
+        ctx.fillRect (0, 0, 500, 300);
+        ctx.beginPath();
+        ctx.fillStyle = "yellow";
+        ctx.moveTo(250,80);
+        ctx.lineTo(200,200);
+        ctx.lineTo(320,125);
+        ctx.lineTo(180,125);
+        ctx.lineTo(300,200);
+        ctx.lineTo(250,80);
+        ctx.closePath();
+        ctx.fill();
+    }
+
+    let canvas1 = document.getElementById('canvas');
+    if (canvas1.getContext) {
+        let context = canvas1.getContext('2d');
+        let centerX = canvas1.width / 2;
+        let centerY = canvas1.height / 2;
+        let radius = 100;
+
+        context.beginPath();
+        context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+        context.fillStyle = '#FE0000';
+        context.fill();
+    }
+</script>
+</body>
+</html>

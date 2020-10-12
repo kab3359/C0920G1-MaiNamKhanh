@@ -76,7 +76,7 @@
         </tr>
         <tr>
             <td>Số lương đi kèm:</td>
-            <td><input type="number" name="number" id="number"></td>
+            <td><input type="text" name="number" id="number"></td>
         </tr>
         <tr>
             <td>Số ngày thuê:</td>
@@ -106,6 +106,8 @@
             <td colspan="2" class="btn">
                 <input type="button" name="submit" value="Xác nhân" onclick="myFunction()">
                 <input type="reset" name="reset" value="Nhâp lai">
+                <input type="button" name="delete" value="Delete Customer">
+                <input type="button" name="show" value="show" onclick="showCustomer()">
             </td>
         </tr>
     </table>
@@ -164,23 +166,11 @@
         <tr>
             <td colspan="2" align="center">
                 <input type="button" name="edit"  value="Edit" onclick="myEdit()">
+                <input type="button" name="submit1" value="Xác nhận" onclick="addCustomer()">
             </td>
         </tr>
     </table>
 </form>
-
-<!--<form>-->
-<!--    <input type="email" id="email">-->
-<!--    <input type="button" onclick="myFunction()">-->
-<!--</form>-->
-
-<!--<form>-->
-<!--    <input type="text" id="name">-->
-<!--    <div></div>-->
-<!--    <input type="button" onclick="xoaKhoangTrang()">-->
-<!--</form>-->
-
-
 <script src="Yeu_cau_1.js"></script>
 </body>
 </html>

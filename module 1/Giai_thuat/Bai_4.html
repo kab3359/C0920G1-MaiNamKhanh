@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let sum = 15;
+    let n = parseInt(prompt(''));
+    let excessCord = 1;
+    for (let i=1; i<=n; i++) {
+        excessCord *= i;
+        sum += Math.pow(-1,i) * 1/excessCord;
+    }
+    alert(sum);
+</script>
+</body>
+</html>

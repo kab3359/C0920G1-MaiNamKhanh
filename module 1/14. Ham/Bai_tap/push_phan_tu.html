@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   let arr = [1,2,3,5,6,7];
+   let k = 3;
+   for (let i = arr.length; i > k; i--){
+       arr[i] = arr[i-1];
+   }
+   arr[k] = 4;
+   alert(arr)
+</script>
+</body>
+</html>

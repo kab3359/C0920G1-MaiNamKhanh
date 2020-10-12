@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = prompt().split(' ');
+    alert(array.length)
+    let num = parseInt(prompt())
+    function tryRemoveFromArray(array, num) {
+        for (let i=0; i< array.length; i++){
+            if (array[i] == num){
+                array.splice(i, 1);
+            }
+        } return array;
+    }
+    tryRemoveFromArray(array, num);
+    alert(tryRemoveFromArray(array, num))
+</script>
+</body>
+</html>

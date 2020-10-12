@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = parseInt(prompt());
+    let sum = 1;
+    if (num % 2 == 0) {
+        for (let i = 2; i <= num; i+=2) {
+            sum *= i;
+        }
+    } else {
+        for (let i = 1; i<=num; i+=2) {
+            sum *= i;
+        }
+    }
+    alert(sum);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class candidate {
+        constructor(name) {
+            this.name = name.name;
+            this.id = name.id;
+            this.birthday = name.birthday;
+            this.math = name.math;
+            this.literature = name.literature;
+            this.english = name.english;
+        }
+        getInfo() {
+            alert('Họ và tên:' + this.name + '\n' + 'ID:' + this.id + '\n' + 'Ngày tháng năm sinh:' + this.birthday +
+            '\n' + 'Điểm toán:' + this.math + '\n' + 'Điểm văn:' + this.literature + '\n' + 'Điểm anh:' + this.english)
+    }
+    getSum() {
+            return this.math + this.literature + this.english;
+    }
+    }
+    let Khanh = {
+        id : 1,
+        name: 'Mai Nam Khánh',
+        birthday: '10/08/1992',
+        math: 10,
+        literature: 10,
+        english: 10
+    };
+    let Hai = {
+        id : 2,
+        name: 'Trương Tấn Hải',
+        birthday: '29/02/2000',
+        math: 1,
+        literature: 1,
+        english: 1
+    };
+    let infoHai = new candidate(Hai);
+    infoHai.getInfo()
+    let infoKhanh = new candidate(Khanh);
+    infoKhanh.getInfo()
+    if (infoHai.getSum() > 15) {
+        infoHai.getInfo()
+    } else if (infoKhanh.getSum() > 15){
+        infoKhanh.getInfo()
+    }
+</script>
+</body>
+</html>

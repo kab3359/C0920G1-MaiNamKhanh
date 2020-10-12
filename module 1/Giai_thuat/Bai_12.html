@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [
+        [1,4,65,7,3,8,9],
+        [4,8,0,3,2,68,5],
+        [3,8,3,9,0,44,3]
+    ];
+    let mul = 1;
+    for (let i = 0; i<a[0].length; i++) {
+        if (a[0][i] % 3 == 0) {
+            mul *= a[0][i];
+        }
+    }
+    alert(mul);
+    let x = [];
+    for (let i=0; i<a.length; i++) {
+        let max = a[i][0];
+        for (let j=1; j<a[i].length; j++) {
+            if (max < a[i][j]) {
+                max = a[i][j];
+            }
+        } x.push(max);
+    }
+    alert(x);
+    x.shift();
+    alert(x);
+</script>
+</body>
+</html>

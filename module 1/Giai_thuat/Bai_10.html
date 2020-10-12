@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt();
+    let count = 0;
+    let b = prompt('từ');
+    let countWord = 0;
+    for (let i = 0; i < a.length; i++) {
+        document.writeln(a[i]);
+        document.writeln('<br>');
+        count++;
+        if (a[i] == b) {
+            countWord++;
+        }
+    }
+    alert(count);
+    alert(countWord);
+</script>
+</body>
+</html>

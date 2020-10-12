@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isFibonacci(num) {
+        let fib = [0,1];
+        let i=2;
+        if (num == 0){
+            return true
+        } else {
+            do {
+                fib[i] = fib[i-1] + fib[i-2]
+                if (fib[i] == num) {
+                    return true;
+                }
+                i++
+            }while (fib[i-1] <= num);
+            return false;
+        }
+    }
+    alert(isFibonacci(parseInt(prompt())))
+</script>
+</body>
+</html>

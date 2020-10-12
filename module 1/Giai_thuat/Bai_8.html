@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt());
+    let b = parseInt(prompt());
+    let uocChung = [];
+    let uocChungLonNhat;
+    let boiChungNhoNhat;
+    function ucln(a, b) {
+        if (a >= b) {
+            for (let i=1; i<=a; i++) {
+                if (a % i == 0 && b % i == 0) {
+                    uocChung.push(i);
+                }
+            }
+        } else {
+            for (let i=1; i<=b; i++) {
+                if (a % i == 0 && b % i == 0) {
+                    uocChung.push(i);
+                }
+            }
+        }
+        uocChungLonNhat = uocChung[uocChung.length - 1];
+        return uocChungLonNhat;
+    }
+    let uocChungMax = ucln(a, b);
+    function bcnn(a, b) {
+        let i;
+        if (a >= b) {
+            i = a;
+            while (i >= a) {
+                if (i % a == 0 && i % b == 0) {
+                    break;
+                }
+                i++;
+            }
+        } else {
+            i = b;
+            while (i >= b) {
+                if (i % a == 0 && i % b == 0) {
+                    break;
+                }
+                i++;
+            }
+        }
+        boiChungNhoNhat = i;
+        return boiChungNhoNhat;
+    }
+    let boiChungMin = bcnn (a, b);
+    alert(uocChungMax);
+    alert(boiChungMin);
+</script>
+</body>
+</html>

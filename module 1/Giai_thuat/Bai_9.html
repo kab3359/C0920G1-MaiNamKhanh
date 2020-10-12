@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt('');
+    let b = '';
+    let c = '';
+    let d = '';
+    let UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let LOWER = 'abcdefghijklmnopqrstuvwxyz';
+    let e = '';
+    for (let i = a.length-1; i >= 0; i--) {
+        b += a[i];
+    }
+    for (let i = 0; i < a.length; i++) {
+        c += a[i].toUpperCase();
+    }
+    for (let i = 0; i<a.length; i++) {
+        d += a[i].toLowerCase();
+    }
+    for (let i = 0; i < a.length; i++) {
+        if (UPPER.indexOf(a[i]) !== -1) {
+            e += a[i].toLowerCase();
+        } else if (LOWER.indexOf(a[i]) !== -1){
+            e += a[i].toUpperCase();
+        } else {
+            e += a[i];
+        }
+    }
+    alert(b);
+    alert(c);
+    alert(d);
+    alert(e)
+</script>
+</body>
+</html>
