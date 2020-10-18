@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Candidate {
+        constructor(ID, name, birthday, math, liberature, english) {
+            this.ID = ID;
+            this.name = name;
+            this.birthday = birthday;
+            this.math = math;
+            this.liberature = liberature;
+            this.english = english;
+        }
+
+        getID() {
+            return this.ID;
+        }
+
+        setID(value) {
+            this.ID = value;
+        }
+
+        getName() {
+            return this.name;
+        }
+
+        setName(value) {
+            this.name = value;
+        }
+
+        getBirthday() {
+            return this.birthday;
+        }
+
+        setBirthday(value) {
+            this.birthday = value;
+        }
+
+        getMath() {
+            return this.math;
+        }
+
+        setMath(value) {
+            this.math = value;
+        }
+
+        getLiberature() {
+            return this.liberature;
+        }
+
+        setLiberature(value) {
+            this.liberature = value;
+        }
+
+        getEnglish() {
+            return this.english;
+        }
+
+        setEnglish(value) {
+            this.english = value;
+        }
+        TestCandidate () {
+            return this.math + this.liberature + this.english
+        }
+    }
+    let listStudent = [];
+    listStudent.push(new Candidate(1, 'A', 90, 10, 10, 10))
+    listStudent.push(new Candidate(2, 'B', 91, 2, 5, 5))
+    listStudent.push(new Candidate(3, 'C', 92, 3, 3, 6))
+    listStudent.push(new Candidate(4, 'D', 93, 4, 7, 8))
+    listStudent.push(new Candidate(5, 'E', 94, 1, 6, 4))
+    listStudent.push(new Candidate(6, 'F', 95, 6, 8, 1))
+    listStudent.push(new Candidate(7, 'G', 96, 8, 9, 2))
+    listStudent.push(new Candidate(8, 'H', 97, 4, 2, 3))
+    listStudent.push(new Candidate(9, 'L', 98, 6, 4, 4))
+    listStudent.push(new Candidate(10, 'M', 99, 1, 5, 5))
+    listStudent.push(new Candidate(11, 'N', 81, 3, 8, 6))
+    listStudent.push(new Candidate(12, 'P', 82, 8, 4, 7))
+    listStudent.push(new Candidate(13, 'Q', 83, 5, 3, 8))
+    listStudent.push(new Candidate(14, 'S', 94, 9, 6, 9))
+    listStudent.push(new Candidate(15, 'R', 93, 10, 7, 10))
+    for (let i=0; i<listStudent.length; i++) {
+        if (listStudent[i].TestCandidate() > 15){
+            document.writeln('ID: ' + listStudent[i].getID() + ' Tên: ' + listStudent[i].getName() + ' năm sinh ' + listStudent[i].getBirthday() +
+            ' Điểm toán ' + listStudent[i].getMath() + ' Điểm Văn: ' + listStudent[i].getLiberature() + ' Điểm anh ' + listStudent[i].getEnglish() + '</br>')
+        }
+    }
+
+</script>
+</body>
+</html>

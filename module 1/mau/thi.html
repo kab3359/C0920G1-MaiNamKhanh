@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="display"></div>
+<div id="edit"></div>
+<script>
+    class Customer {
+        constructor(id, name, phone, address, email) {
+            this.id = id;
+            this.name = name;
+            this.phone = phone;
+            this.address = address;
+            this.email = email;
+        }
+        getId(){
+            return this.id;
+        }
+        getName(){
+            return this.name;
+        }
+        getPhone(){
+            return this.phone;
+        }
+        getAddress(){
+            return this.address;
+        }
+        getEmail(){
+            return this.email;
+        }
+        setId(value){
+            this.id = value;
+        }
+        setName(value){
+            this.name = value;
+        }
+        setPhone(value){
+            this.phone = value;
+        }
+        setAddress(value){
+            this.address = value;
+        }
+        setEmail(value){
+            this.email = value;
+        }
+    }
+    let listCustomer = [];
+    function displayCustomer() {
+        let temp = "<button onclick='createCustomer()'>Thêm khách hàng</button>" +
+            "<button onclick='searchCustomer()'>Tìm khách hàng</button>"
+        temp += "<table>";
+        temp += "<tr>" +
+            "<th>Mã khách hàng</th>" +
+            "<th>Tên khách hàng</th>" +
+            "<th>Số điện thoại</th>" +
+            "<th>Địa chỉ</th>" +
+            "<th>Email</th>" +
+            "</tr>"
+        for (let i in listCustomer) {
+            temp += "<tr>" +
+                "<td>" + listCustomer[i].getId() + "</td> " +
+                "<td>" + listCustomer[i].getName() + "</td> " +
+                "<td>" + listCustomer[i].getPhone() + "</td> " +
+                "<td>" + listCustomer[i].getAddress() + "</td> " +
+                "<td>" + listCustomer[i].getEmail() + "</td> " +
+                "</tr>"
+        }
+        temp += "</table>"
+        document.getElementById("display").innerHTML = temp;
+    }
+    function createCustomer() {
+        let temp = "<h1>Thêm mới khách hàng</h1>"
+        temp += "Mã số khách hàng: <input type='text' id='id' ></br>"
+            + "Tên khách hàng: <input type='text' id='name' ></br>"
+            + "Số điện thoại: <input type='text' id='phone'></br>"
+            + "Địa chỉ: <input type='text' id='address'></br>"
+            + "Email: <input type='text' id='email'></br>"
+            + "<input type='button' value='Create' onclick='create()'></br>";
+        document.getElementById("edit").innerHTML = temp;
+    }
+    function create() {
+        let id = (document.getElementById("id").value);
+        let name = (document.getElementById("name").value);
+        let phone = (document.getElementById("phone").value);
+        let address = (document.getElementById("address").value);
+        let email = (document.getElementById("email").value);
+        let cus = new Customer(id, name, phone, address, email);
+        listCustomer.push(cus);
+        document.getElementById("edit").innerText = "";
+        displayCustomer();
+    }
+    function searchCustomer() {
+        let nameSearch = prompt();
+        for (let i=0; i<listCustomer.length; i++){
+            if (nameSearch == listCustomer[i].getName()){
+                let temp = "<table>";
+                temp += "<tr>" +
+                    "<th>Mã khách hàng</th>" +
+                    "<th>Tên khách hàng</th>" +
+                    "<th>Số điện thoại</th>" +
+                    "<th>Địa chỉ</th>" +
+                    "<th>Email</th>" +
+                    "</tr>"+
+                    "<tr>" +
+                        "<td>" + listCustomer[i].getId() + "</td> " +
+                        "<td>" + listCustomer[i].getName() + "</td> " +
+                        "<td>" + listCustomer[i].getPhone() + "</td> " +
+                        "<td>" + listCustomer[i].getAddress() + "</td> " +
+                        "<td>" + listCustomer[i].getEmail() + "</td> " +
+                        "</tr>"+
+                "</table>"
+                document.getElementById("display").innerHTML = temp;
+            }
+        }
+    }
+    displayCustomer();
+</script>
+</body>
+</html>

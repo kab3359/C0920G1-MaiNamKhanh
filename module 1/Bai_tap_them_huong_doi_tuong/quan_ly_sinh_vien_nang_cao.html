@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="display"></div>
+<div id="edit"></div>
+<script>
+    let arrayStudent = [];
+    class student {
+        constructor(ID, name, birthday, gender, className, khoa) {
+            this.ID = ID;
+            this.name = name;
+            this.birthday = birthday;
+            this.gender = gender;
+            this.className = className;
+            this.khoa = khoa;
+        }
+        getID() {
+            return this.ID;
+        }
+        setID(value) {
+            this.ID = value
+        }
+        getName() {
+            return this.name;
+        }
+        setName(value) {
+            this.name = value
+        }
+        getBirthday() {
+            return this.birthday;
+        }
+        setBirthday(value) {
+            this.birthday = value
+        }
+        getGender() {
+            return this.gender;
+        }
+        setGender(value) {
+            this.gender = value
+        }
+        getClassName() {
+            return this.className;
+        }
+        setClassName(value) {
+            this.className = value
+        }
+        getKhoa() {
+            return this.khoa;
+        }
+        setKhoa(value) {
+            this.khoa = value
+        }
+    }
+    function displayStuden() {
+        let temp = "<input type='button' value='Thêm sinh viên' onclick='addStudent()'>" +
+                "<input type='button' value='remove theo ID' onclick='removeStudent()'>" +
+                "<input type='button' value='remove theo stt'>" +
+                "<input type='button' value='search'>" +
+                "<input type='button' value='print'>" +
+                "<input type='button' value='sắp xếp'>" + "<br>" +
+                "<table><tr><th>MSSV</th><th>Họ và tên</th><th>ngày sinh</th><th>giới tính</th><th>tên lớp</th>" +
+            "<th>khóa</th></tr>" +
+                "<tr>"
+        for (let i in arrayStudent) {
+            temp += "<tr>" +
+                "<td>" + arrayStudent[i].getID() + "</td> " +
+                "<td>" + arrayStudent[i].getName() + "</td> " +
+                "<td>" + arrayStudent[i].getBirthday() + "</td> " +
+                "<td>" + arrayStudent[i].getGender() + "</td> " +
+                "<td>" + arrayStudent[i].getClassName() + "</td> " +
+                "<td>" + arrayStudent[i].getKhoa() + "</td> " +
+                "</tr>"
+        }
+        temp += "</table>"
+        document.getElementById('display').innerHTML = temp;
+    }
+    function addStudent() {
+        let temp = "MSSV <input id='ID' type='text' value='1'><br>" +
+            "tên <input id='name' type='text' value='hai'><br>" +
+            "năm sinh <input id='birthday' type='text' value='1998'><br>" +
+            "giới tính <input  type='radio' name='gender' value='nam'>Nam<input type='radio' name='gender' value='nữ'>Nữ<br>" +
+            "lớp <input id='className' type='text' value='12'><br>" +
+            "khóa <input id='khoa' type='text' value='2010'><br>" +
+            "<input type='button' value='thêm mới' onclick='addStudentInArray()'>";
+        document.getElementById('edit').innerHTML = temp;
+    }
+    function addStudentInArray() {
+        let ID = document.getElementById('ID').value;
+        let name = document.getElementById('name').value;
+        let birthday = document.getElementById('birthday').value;
+        let gender = document.querySelector('input[name = gender]:checked').value;
+        let className = document.getElementById('className').value;
+        let khoa = document.getElementById('khoa').value;
+        let stu = new student(ID, name, birthday, gender, className, khoa);
+        arrayStudent.push(stu);
+        document.getElementById('edit').innerText = '';
+        displayStuden()
+    }
+    displayStuden()
+</script>
+</body>
+</html>

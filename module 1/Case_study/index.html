@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="display"></div>
+<script>
+    let listCustomer = [];
+    let listEmployees= [];
+    class customer {
+        constructor(name, cmnd, birthday, email, address, specialCustomer, numOfPerson, rentDay, specialService, specialRoom) {
+            this.name = name;
+            this.cmnd = cmnd;
+            this.birthday = birthday;
+            this.email = email;
+            this.address = address;
+            this.specialCustomer = specialCustomer;
+            this.numOfPerson = numOfPerson;
+            this.rentDay = rentDay;
+            this.specialService = specialService;
+            this.specialRoom = specialRoom;
+        }
+        getName() {
+            return this.name;
+        }
+        getCmnd() {
+            return this.cmnd;
+        }
+        getBirthday() {
+            return this.birthday;
+        }
+        getEmail() {
+            return this.email;
+        }
+        getAddress() {
+            return this.address;
+        }
+        getSpecialCustomer() {
+            return this.specialCustomer;
+        }
+        getNumOfPerson() {
+            return this.numOfPerson;
+        }
+        getRentDay() {
+            return this.rentDay;
+        }
+        getSpecialService() {
+            return this.specialService;
+        }
+        getSpecialRoom() {
+            return this.specialRoom;
+        }
+        setName(value) {
+            this.name = value
+        }
+        setCmnd(value) {
+            this.cmnd = value
+        }
+        setBirthday(value) {
+            this.birthday = value
+        }
+        setEmail(value) {
+            this.email = value
+        }
+        setAddress(value) {
+            this.address = value
+        }
+        setSpecialCustomer(value) {
+            this.specialCustomer = value
+        }
+        setNumOfPerson(value) {
+            this.numOfPerson = value
+        }
+        setRentDay(value) {
+            this.rentDay = value
+        }
+        setSpecialService(value) {
+            this.specialService = value
+        }
+        setSpecialRoom(value) {
+            this.specialRoom = value
+        }
+        getDiscount() {
+            let discount = 0;
+            switch (this.getAddress()) {
+                case 'Đà Nẵng':
+                case 'Da Nang': discount += 20;
+                    break;
+                case 'Huế':
+                case 'Hue': discount += 10;
+                    break;
+                case 'Quảng Nam':
+                case 'Quang Nam': discount += 5;
+                    break;
+            }
+            if (this.getRentDay() >= 7) {
+                discount += 30;
+            } else if (this.getRentDay() >= 5) {
+                discount += 20;
+            } else if (this.getRentDay() >= 2) {
+                discount += 10;
+            }
+            switch (this.getSpecialCustomer()) {
+                case 'Diamond': discount += 15;
+                    break;
+                case 'Platium': discount += 10;
+                    break;
+                case 'Gold': discount += 5;
+                    break;
+                case 'Silver': discount += 2;
+                    break;
+            }
+            return discount;
+        }
+        getTotalPay() {
+            let money = 0;
+            switch (this.getSpecialService()) {
+                case 'Villa': money = 500;
+                    break;
+                case 'House': money = 300;
+                    break;
+                case 'Room': money = 100;
+                    break;
+            }
+            return money * this.getRentDay() - this.getDiscount()
+        }
+    }
+    class employee {
+        constructor(name, birthday, cmnd, phone, email, level, location) {
+            this.name = name;
+            this.birthday = birthday;
+            this.cmnd = cmnd;
+            this.phone = phone;
+            this.email = email;
+            this.level = level;
+            this.location = location;
+        }
+        getName(){
+            return this.name
+        }
+        getBirthday(){
+            return this.birthday
+        }
+        getCmnd(){
+            return this.cmnd
+        }
+        getPhone(){
+            return this.phone
+        }
+        getEmail(){
+            return this.email
+        }
+        getLevel(){
+            return this.level
+        }
+        getLocation(){
+            return this.location
+        }
+        setName(value){
+            this.name = value;
+        }
+        setBirthday(value){
+            this.birthday = value;
+        }
+        setCmnd(value){
+            this.cmnd = value;
+        }
+        setPhone(value){
+            this.phone = value;
+        }
+        setEmail(value){
+            this.email = value;
+        }
+        setLevel(value){
+            this.level = value;
+        }
+        setLocation(value){
+            this.location = value;
+        }
+        getSalary(){
+            switch (this.location) {
+                case "Manager": return 500;
+                break;
+                case "Sale": return 300;
+                break;
+                case "Marketing": return 200;
+                break;
+            }
+        }
+    }
+    function addNewCustomer() {
+        let temp = "<table><tr colspan='2'><th><h1>Thông tin khách hàng</h1></th></tr>" +
+                "<tr><td>Họ và tên:</td><td><input id='name' type='text' value='khanh'></td></tr>" +
+            "<tr><td>Số CMND:</td><td><input id='id' type='text' value='22222222'></td></tr>" +
+            "<tr><td>Ngày tháng năm sinh:</td><td><input id='birthday' type='text' value='10/08/1992'></td></tr>" +
+            "<tr><td>Email:</td><td><input id='email' type='text' value='abc@abc.com'></td></tr>" +
+            "<tr><td>Địa chỉ:</td><td><input id='address' type='text' value='khanh'></td></tr>" +
+            "<tr><td>Loại Customer:</td><td><select id='specialCustomer'>" +
+            "<option>Diamond</option>" +
+            "<option>Platinum</option>" +
+            "<option>Gold</option>" +
+            "<option>Silver</option>" +
+            "<option>Member</option>" +
+            "</select></td></tr>" +
+            "<tr><td>Số người đi kèm:</td><td><input id='numOfPerson' type='text' value='2'></td></tr>" +
+            "<tr><td>Số ngày thuê:</td><td><input id='rentDay' type='text' value='2'></td></tr>" +
+            "<tr><td>Loại dịch vụ:</td><td><select id='specialService'>" +
+            "<option>Villa</option>" +
+            "<option>House</option>" +
+            "<option>Room</option>" +
+            "</select></td></tr>" +
+            "<tr><td>Loại phòng thuê:</td><td><select id='specialRoom'>" +
+            "<option>Vip</option>" +
+            "<option>Business</option>" +
+            "<option>Normal</option>" +
+            "</select></td></tr>" +
+                "<tr><td colspan='2'><button type='button' onclick='pushCustomer()'>Xác nhận</button></td></tr></table>"
+        document.getElementById('display').innerHTML = temp
+    }
+    function displayMainMenu() {
+        let temp = "<button type='button' onclick='addNewCustomer()'>Thêm khách hàng</button><br><br>" +
+            "<button type='button' onclick='displayCustomer()'>Hiển thị khách hàng</button><br><br>" +
+            "<button type='button' onclick='displayTotalPay()'>Hiển thị số tiền phải trả của khách hàng</button><br><br>" +
+            "<button type='button' onclick='editCustomer()'>Chỉnh sửa thông tin khách hàng</button><br><br>" +
+            "<button type='button' onclick='deleteCustomer()'>Xóa khách hàng</button><br><br>" +
+            "<button type='button' onclick='displayWebsite()'>Exit</button><br><br>"
+        document.getElementById('display').innerHTML = temp;
+    }
+    function pushCustomer() {
+        let name = document.getElementById('name').value;
+        let nameAfterEdit = editName(name);
+        let id = document.getElementById('id').value;
+        checkID(id);
+        let birthday = document.getElementById('birthday').value;
+        checkBirthday(birthday);
+        let email = document.getElementById('email').value;
+        checkEmail(email);
+        let address = document.getElementById('address').value;
+        let addressAfterEdit = editName(address);
+        let specialCustomer = document.getElementById('specialCustomer').value;
+        let numOfPerson = document.getElementById('numOfPerson').value;
+        checkNum(numOfPerson);
+        let rentDay = document.getElementById('rentDay').value;
+        checkNum(rentDay);
+        let specialService = document.getElementById('specialService').value;
+        let specialRoom = document.getElementById('specialRoom').value;
+        if(checkID(id) && checkEmail(email) && checkNum(numOfPerson) && checkNum(rentDay) && checkBirthday(birthday)){
+            let cus = new customer(nameAfterEdit, id, birthday, email, addressAfterEdit, specialCustomer, numOfPerson, rentDay, specialService, specialRoom)
+            listCustomer.push(cus);
+            alert('thêm thành công')
+            displayMainMenu()
+        }
+    }
+    function editName(name){
+        let displayName = '';
+        let inputName = name.trim();
+        for (let n = 0; n < inputName.length; n++) {
+            if (n === 0) {
+                displayName += inputName[n].toUpperCase();
+            } else {
+                if (inputName[n-1] === " ") {
+                    if (inputName[n] === " ") {
+                        continue;
+                    } else {
+                        displayName += inputName[n].toUpperCase();
+                    }
+                } else {
+                    displayName += inputName[n].toLowerCase();
+                }
+            }
+        }
+        return displayName;
+    }
+    function checkID(id) {
+        let regexIDcard = /^[\d]{8,8}$/;
+        let checkIDcard = false;
+        do {
+            if(regexIDcard.test(id)){
+                checkIDcard = true
+            } else {
+                alert('sai CMND');
+                checkIDcard = false;
+                break;
+            }
+        }while (!checkIDcard);
+        return checkIDcard
+    }
+    function checkBirthday(birthday){
+        let regexBirthday = /^\d{2}[./-]\d{2}[./-]\d{4}$/;
+        let checkBirthday = false;
+        do {
+            if(regexBirthday.test(birthday)){
+                checkBirthday = true;
+            } else {
+                alert('sai ngày tháng năm sinh')
+                checkBirthday = false;
+                break;
+            }
+        }while (!checkBirthday)
+        return checkBirthday
+    }
+    function checkEmail(email){
+        let regexEmail = /\S+@\S+\.\S+/
+        let checkEmail = false;
+        do {
+            if(regexEmail.test(email)){
+                checkEmail = true;
+            } else {
+                alert('sai Email');
+                checkEmail = false;
+                break;
+            }
+        } while (!checkEmail)
+        return checkEmail
+    }
+    function checkNum(num) {
+        let regexNum = /^\d+$/
+        let checkNum = false
+        do {
+            if(regexNum.test(num)){
+                checkNum = true;
+            }else {
+                alert('sai số người đi kèm hoăc ngày thuê');
+                checkNum = false;
+                break;
+            }
+        }while (!checkNum)
+        return checkNum
+    }
+    function displayCustomer(){
+        let nameSearch = prompt();
+        for (let i=0; i<listCustomer.length; i++)
+        if (nameSearch == listCustomer[i].getName()){
+            let temp = "<table><tr colspan='2'><th><h1>Thông tin khách hàng</h1></th></tr>" +
+                "<tr><td>Họ và tên:</td><td>"+listCustomer[i].getName()+"</td></tr>" +
+                "<tr><td>Số CMND:</td><td>"+listCustomer[i].getCmnd()+"</td></tr>" +
+                "<tr><td>Ngày tháng năm sinh:</td><td>"+listCustomer[i].getBirthday()+"</td></tr>" +
+                "<tr><td>Email:</td><td>"+listCustomer[i].getEmail()+"</td></tr>" +
+                "<tr><td>Địa chỉ:</td><td>"+listCustomer[i].getAddress()+"</td></tr>" +
+                "<tr><td>Loại Customer:</td><td>"+listCustomer[i].getSpecialCustomer()+"</td></tr>" +
+                "<tr><td>Số người đi kèm:</td><td>"+listCustomer[i].getNumOfPerson()+"</td></tr>" +
+                "<tr><td>Số ngày thuê:</td><td>"+listCustomer[i].getRentDay()+"</td></tr>" +
+                "<tr><td>Loại dịch vụ:</td><td>"+listCustomer[i].getSpecialService()+"</td></tr>" +
+                "<tr><td>Loại phòng thuê:</td><td>"+listCustomer[i].getSpecialRoom()+"</td></tr>" +
+                "<tr><td colspan='2'><button type='button' onclick='displayMainMenu()'>Quay lại trang chủ</button></td></tr></table>"
+            document.getElementById('display').innerHTML = temp
+        }
+    }
+    function editCustomer() {
+        let nameSearch = prompt();
+        for (let i = 0; i < listCustomer.length; i++){
+            if (nameSearch == listCustomer[i].getName()) {
+                let temp = "<table><tr colspan='2'><th><h1>Thông tin khách hàng</h1></th></tr>" +
+                    "<tr><td>Họ và tên:</td><td><input id='name' type='text' value='"+listCustomer[i].getName()+"'></td></tr>" +
+                    "<tr><td>Số CMND:</td><td><input id='id' type='text' value='"+listCustomer[i].getCmnd()+"'></td></tr>" +
+                    "<tr><td>Ngày tháng năm sinh:</td><td><input id='birthday' type='text' value='"+listCustomer[i].getBirthday()+"'></td></tr>" +
+                    "<tr><td>Email:</td><td><input id='email' type='text' value='"+listCustomer[i].getEmail()+"'></td></tr>" +
+                    "<tr><td>Địa chỉ:</td><td><input id='address' type='text' value='"+listCustomer[i].getAddress()+"'></td></tr>" +
+                    "<tr><td>Loại Customer:</td><td><select id='specialCustomer' value='"+listCustomer[i].getSpecialCustomer()+"'>" +
+                    "<option>Diamond</option>" +
+                    "<option>Platinum</option>" +
+                    "<option>Gold</option>" +
+                    "<option>Silver</option>" +
+                    "<option>Member</option>" +
+                    "</select></td></tr>" +
+                    "<tr><td>Số người đi kèm:</td><td><input id='numOfPerson' type='text' value='"+listCustomer[i].getNumOfPerson()+"'></td></tr>" +
+                    "<tr><td>Số ngày thuê:</td><td><input id='rentDay' type='text' value='"+listCustomer[i].getRentDay()+"'></td></tr>" +
+                    "<tr><td>Loại dịch vụ:</td><td><select id='specialService' value='"+listCustomer[i].getSpecialService()+"'>" +
+                    "<option>Villa</option>" +
+                    "<option>House</option>" +
+                    "<option>Room</option>" +
+                    "</select></td></tr>" +
+                    "<tr><td>Loại phòng thuê:</td><td><select id='specialRoom' value='"+listCustomer[i].getSpecialRoom()+"'>" +
+                    "<option>Vip</option>" +
+                    "<option>Business</option>" +
+                    "<option>Normal</option>" +
+                    "</select></td></tr>" +
+                    "<tr><td colspan='2'><button type='button' onclick='displayCustomerAfterEdit("+i+")'>Xác nhận</button></td></tr></table>"
+                document.getElementById('display').innerHTML = temp
+            }
+        }
+    }
+    function displayCustomerAfterEdit(i){
+        listCustomer[i].setName(document.getElementById('name').value);
+        listCustomer[i].setCmnd(document.getElementById('id').value);
+        listCustomer[i].setBirthday(document.getElementById('birthday').value);
+        listCustomer[i].setEmail(document.getElementById('email').value);
+        listCustomer[i].setAddress(document.getElementById('address').value);
+        listCustomer[i].setSpecialCustomer(document.getElementById('specialCustomer').value);
+        listCustomer[i].setNumOfPerson(document.getElementById('numOfPerson').value);
+        listCustomer[i].setRentDay(document.getElementById('rentDay').value);
+        listCustomer[i].setSpecialService(document.getElementById('specialService').value);
+        listCustomer[i].setSpecialRoom(document.getElementById('specialRoom').value);
+        let temp = "<table><tr colspan='2'><th><h1>Thông tin khách hàng</h1></th></tr>" +
+            "<tr><td>Họ và tên:</td><td>"+listCustomer[i].getName()+"</td></tr>" +
+            "<tr><td>Số CMND:</td><td>"+listCustomer[i].getCmnd()+"</td></tr>" +
+            "<tr><td>Ngày tháng năm sinh:</td><td>"+listCustomer[i].getBirthday()+"</td></tr>" +
+            "<tr><td>Email:</td><td>"+listCustomer[i].getEmail()+"</td></tr>" +
+            "<tr><td>Địa chỉ:</td><td>"+listCustomer[i].getAddress()+"</td></tr>" +
+            "<tr><td>Loại Customer:</td><td>"+listCustomer[i].getSpecialCustomer()+"</td></tr>" +
+            "<tr><td>Số người đi kèm:</td><td>"+listCustomer[i].getNumOfPerson()+"</td></tr>" +
+            "<tr><td>Số ngày thuê:</td><td>"+listCustomer[i].getRentDay()+"</td></tr>" +
+            "<tr><td>Loại dịch vụ:</td><td>"+listCustomer[i].getSpecialService()+"</td></tr>" +
+            "<tr><td>Loại phòng thuê:</td><td>"+listCustomer[i].getSpecialRoom()+"</td></tr>" +
+            "<tr><td colspan='2'><button type='button' onclick='displayMainMenu()'>Quay lại trang chủ</button></td></tr></table>"
+        document.getElementById('display').innerHTML = temp
+    }
+    function deleteCustomer() {
+        let nameSearch = prompt();
+        let temp = '';
+         for (let i = 0; i < listCustomer.length; i++){
+            if (nameSearch == listCustomer[i].getName()) {
+                if (confirm('bạn có muốn xóa' + listCustomer[i].getName())){
+                    listCustomer.splice(i,1);
+                }
+            }
+        }
+        for (let i = 0; i < listCustomer.length; i++){
+            temp += "Họ và tên:" + listCustomer[i].getName() + '<br>'
+        }
+        temp += "<input type='button' value='Exit' onclick='displayMainMenu()'>"
+        document.getElementById('display').innerHTML = temp;
+    }
+    function displayTotalPay() {
+        let nameSearch = prompt();
+        let temp = '';
+        for (let i = 0; i < listCustomer.length; i++) {
+            if (nameSearch == listCustomer[i].getName()) {
+                temp += "Họ và tên:" +listCustomer[i].getName()+'<br>'+
+                    "Giảm giá:" +listCustomer[i].getDiscount()+'<br>'+
+                    "Số tiền phải trả:" +listCustomer[i].getTotalPay()+'<br>'
+            }
+        }
+        temp += "<button type='button' onclick='displayMainMenu()'>Exit</button>"
+        document.getElementById('display').innerHTML = temp;
+    }
+    function displayWebsite() {
+        let temp = "<button type='button' onclick='displayMainMenu()'>Quản lý khách hàng</button><br><br>"+
+            "<button type='button' onclick='displayMainMenu1()'>Quản lý nhân viên</button><br><br>"
+        document.getElementById('display').innerHTML = temp;
+    }
+    function displayMainMenu1() {
+        let temp = "<button type='button' onclick='addNewEmployee()'>Thêm nhân viên</button><br><br>" +
+            "<button type='button' onclick='displayEmployee()'>Hiển thị nhân viên</button><br><br>" +
+            "<button type='button' onclick='displaySalary()'>Hiển thị lương nhân viên</button><br><br>" +
+            "<button type='button' onclick='displayWebsite()'>Exit</button>"
+        document.getElementById('display').innerHTML = temp;
+    }
+    function addNewEmployee(){
+        let temp = "<table><tr colspan='2'><th><h1>Thông tin nhân viên</h1></th></tr>" +
+            "<tr><td>Họ và tên:</td><td><input id='name' type='text' value='khanh'></td></tr>" +
+            "<tr><td>Số CMND:</td><td><input id='id' type='text' value='22222222'></td></tr>" +
+            "<tr><td>Ngày tháng năm sinh:</td><td><input id='birthday' type='text' value='10/08/1992'></td></tr>" +
+            "<tr><td>Email:</td><td><input id='email' type='text' value='abc@abc.com'></td></tr>" +
+            "<tr><td>Số điện thoại:</td><td><input id='phone' type='text' value='khanh'></td></tr>" +
+            "<tr><td>Trình độ:</td><td><select id='level'>" +
+            "<option>Trung cấp</option>" +
+            "<option>Cao đẳng</option>" +
+            "<option>Đại học</option>" +
+            "<option>Sau đại học</option>" +
+            "</select></td></tr>" +
+            "<tr><td>Vị trí:</td><td><select id='location'>" +
+            "<option>Manager</option>" +
+            "<option>Sale</option>" +
+            "<option>Marketing</option>" +
+            "</select></td></tr>" +
+            "<tr><td colspan='2'><button type='button' onclick='pushEmployee()'>Xác nhận</button></td></tr></table>"
+        document.getElementById('display').innerHTML = temp
+    }
+    function pushEmployee(){
+        let name = document.getElementById('name').value;
+        let id = document.getElementById('id').value
+        let birthday = document.getElementById('birthday').value
+        let email = document.getElementById('email').value
+        let phone = document.getElementById('phone').value
+        let level = document.getElementById('level').value
+        let location = document.getElementById('location').value
+        let em = new employee(name, id, birthday, email, phone, level, location)
+        listEmployees.push(em);
+        displayMainMenu1()
+    }
+    function displayEmployee(){
+        let searchName = prompt();
+        for (let i=0; i<listEmployees.length; i++){
+            if (searchName == listEmployees[i].getName()){
+                let temp = "<table><tr colspan='2'><th><h1>Thông tin nhân viên</h1></th></tr>" +
+                    "<tr><td>Họ và tên:</td><td>"+listEmployees[i].getName()+"</td></tr>" +
+                    "<tr><td>Số CMND:</td><td>"+listEmployees[i].getCmnd()+"</td></tr>" +
+                    "<tr><td>Ngày tháng năm sinh:</td><td>"+listEmployees[i].getBirthday()+"</td></tr>" +
+                    "<tr><td>Email:</td><td>"+listEmployees[i].getEmail()+"</td></tr>" +
+                    "<tr><td>Số điện thoại:</td><td>"+listEmployees[i].getPhone()+"</td></tr>" +
+                    "<tr><td>Trình độ:</td><td>"+listEmployees[i].getLevel()+"</td></tr>" +
+                    "<tr><td>Vị trí:</td><td>"+listEmployees[i].getLocation()+"</td></tr>" +
+                    "<tr><td colspan='2'><button type='button' onclick='displayMainMenu1()'>Exit</button></td></tr></table>"
+                document.getElementById('display').innerHTML = temp
+            }
+        }
+    }
+    function displaySalary() {
+        let searchName = prompt();
+        for (let i = 0; i < listEmployees.length; i++) {
+            if (searchName == listEmployees[i].getName()) {
+                let temp = "Họ và tên:" + listEmployees[i].getName() + "<br>" +
+                        "Lương:" + listEmployees[i].getSalary() + "$" + "<br>" +
+                        "<button type='button' onclick='displayMainMenu1()'>Exit</button>"
+                document.getElementById('display').innerHTML = temp;
+            }
+        }
+    }
+    displayWebsite()
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = []
+    let soPhanTu = parseInt(prompt('số phần tử'));
+    if (soPhanTu > 20){
+        alert('vượt 20');
+    } else {
+        for (let i=0; i<soPhanTu; i++){
+            mang.push(parseInt(prompt('phần tử số'+ i)))
+        }alert('mang' + mang)
+        let boiChung = []
+        for (let i=0; i<mang.length; i++){
+            if (mang[i]%3 == 0 && mang[i]%5 == 0){
+                boiChung.push(mang[i])
+            }
+        }
+        let sum = 0;
+        for (let j=0; j<boiChung.length; j++){
+            sum += boiChung[j];
+        }
+        alert('Các số là bội chung của 3 và 5 là' + boiChung);
+        alert("Tổng Các số là bội chung của 3 và 5 là " + sum)
+    }
+
+</script>
+</body>
+</html>

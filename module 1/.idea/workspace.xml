@@ -2,55 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9681549e-f0a8-4759-a201-43fcf7389438" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12.Thuc_hanh_va_thao_tac_voi_mang/bai_tap/Caro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.Thuc_hanh_va_thao_tac_voi_mang/bai_tap/Su_dung_cac_ham_co_san_cua_bang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.Thuc_hanh_va_thao_tac_voi_mang/bai_tap/Tu_dien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.Thuc_hanh_va_thao_tac_voi_mang/thuc_hanh/Dao_nguoc_cac_phan_tu_trong_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.Thuc_hanh_va_thao_tac_voi_mang/thuc_hanh/Tao_ban_co_caro_don_gian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.Thuc_hanh_va_thao_tac_voi_mang/thuc_hanh/Tao_va_thao_tac_voi_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.Thuc_hanh_va_thao_tac_voi_mang/thuc_hanh/Tim_gia_tri_lon_nhat_trong_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.Thuc_hanh_va_thao_tac_voi_mang/thuc_hanh/Tim_gia_tri_trong_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14. Ham/Bai_tap/Ham_kiem_tra_so_nguyen_to.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14. Ham/Bai_tap/Luyen_tap_tao_va_su_dung_ham_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14. Ham/Bai_tap/Ung_dung_quan_ly_san_pham_su_dung_ham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14. Ham/Bai_tap/chuyen_doi_feet_va_meter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14. Ham/Bai_tap/luyen_tap_tao_va_su_dung_ham_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14. Ham/Bai_tap/luyen_tap_tao_va_su_dung_ham_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14. Ham/Bai_tap/push_phan_tu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14. Ham/Thuc_hanh/Chuyen_doi_nhiet_do.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14. Ham/Thuc_hanh/Tao_va_goi_ham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14. Ham/Thuc_hanh/Tim_gia_tri_nho_nhat_cua_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16. Lap_trinh_huong_doi_tuong/Bai_tap/abc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16. Lap_trinh_huong_doi_tuong/Bai_tap/adam_eva.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16. Lap_trinh_huong_doi_tuong/Bai_tap/thi_sinh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16. Lap_trinh_huong_doi_tuong/Thuc_hanh/Xay_dung_lop_date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16. Lap_trinh_huong_doi_tuong/Thuc_hanh/Xay_dung_lop_hinh_tron.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16. Lap_trinh_huong_doi_tuong/mau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai_tap_them/prefix_sums.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai_tap_them/tam_giac_vuong_rong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case_study/furama.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case_study/furama.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case_study/furama_huong_doi_tuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case_study/furama_huong_doi_tuong.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case_study/yeu_cau_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Giai_thuat/Bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Giai_thuat/Bai_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Giai_thuat/Bai_11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Giai_thuat/Bai_12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Giai_thuat/Bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Giai_thuat/Bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Giai_thuat/Bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Giai_thuat/Bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Giai_thuat/Bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Giai_thuat/Bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Giai_thuat/Bai_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Giai_thuat/Bai_9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thi_mau/Cau_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thi_mau/Cau_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thi_mau/Cau_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14. Ham/Bai_tap/Kiem_tra_tu_doi_xung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/switch_case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/toan_tu_ba_ngoi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai_tap_them_huong_doi_tuong/quan_ly_sinh_vien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai_tap_them_huong_doi_tuong/quan_ly_sinh_vien_nang_cao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case_study/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case_study/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mau/Cau_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mau/cau_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mau/cau_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mau/quan_ly_san_pham_huong_doi_tuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mau/thi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Case_study/Yeu_cau_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Case_study/Yeu_cau_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Case_study/Yeu_cau_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Case_study/Yeu_cau_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12.Thuc_hanh_va_thao_tac_voi_mang/bai_tap/Su_dung_cac_ham_co_san_cua_bang.html" beforeDir="false" afterPath="$PROJECT_DIR$/12.Thuc_hanh_va_thao_tac_voi_mang/bai_tap/Su_dung_cac_ham_co_san_cua_bang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14. Ham/Bai_tap/Luyen_tap_tao_va_su_dung_ham_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/14. Ham/Bai_tap/Luyen_tap_tao_va_su_dung_ham_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Giai_thuat/Bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Giai_thuat/Bai_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thi_mau/Cau_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Thi_mau/Cau_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mau/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mau/1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,29 +52,29 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Cau_2.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="Cau_2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/Thi_mau/Cau_2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Cau_3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/Thi_mau/Cau_3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="Kiem_tra_tu_doi_xung.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/14. Ham/Bai_tap/Kiem_tra_tu_doi_xung.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="Luyen_tap_tao_va_su_dung_ham_2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/14. Ham/Bai_tap/Luyen_tap_tao_va_su_dung_ham_2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Xay_dung_lop_date.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/16. Lap_trinh_huong_doi_tuong/Thuc_hanh/Xay_dung_lop_date.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="thi_sinh.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/16. Lap_trinh_huong_doi_tuong/Bai_tap/thi_sinh.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/Case_study/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.Luyen_tap_tao_va_su_dung_ham_2.html" />
+        <item itemvalue="JavaScript Debug.Kiem_tra_tu_doi_xung.html" />
         <item itemvalue="JavaScript Debug.Cau_2.html" />
         <item itemvalue="JavaScript Debug.Cau_3.html" />
-        <item itemvalue="JavaScript Debug.thi_sinh.html" />
-        <item itemvalue="JavaScript Debug.Xay_dung_lop_date.html" />
-        <item itemvalue="JavaScript Debug.Luyen_tap_tao_va_su_dung_ham_2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +131,14 @@
       <workItem from="1602395304075" duration="2859000" />
       <workItem from="1602423912499" duration="631000" />
       <workItem from="1602439779732" duration="4107000" />
-      <workItem from="1602465987613" duration="16116000" />
+      <workItem from="1602465987613" duration="18625000" />
+      <workItem from="1602553245533" duration="11402000" />
+      <workItem from="1602638383116" duration="11574000" />
+      <workItem from="1602690348946" duration="15728000" />
+      <workItem from="1602722081410" duration="14035000" />
+      <workItem from="1602765525273" duration="4479000" />
+      <workItem from="1602814900337" duration="8869000" />
+      <workItem from="1603003014036" duration="867000" />
     </task>
     <servers />
   </component>
@@ -174,74 +150,78 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="236" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1600315432554" />
+    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1602732121837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1602732121837" />
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600764125184">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1600764125184" />
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1602447189519">
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1602758851188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602447189519" />
-    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1602447189518">
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602758851188" />
+    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1602758851187">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602447189518" />
-    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1602447189518">
+    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602758851187" />
+    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1602758851186">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602447189518" />
-    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1602447189519">
+    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602758851186" />
+    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1602758851187">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602447189519" />
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1602447189519">
+    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602758851187" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1602758851190">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602447189519" />
-    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1602447189519">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602758851190" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1602758851189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1602447189519" />
-    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1602447189519">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1602758851189" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1602758851188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1602447189519" />
-    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1602447189519">
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1602758851188" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1602758851189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602447189519" />
-    <state width="1345" height="223" key="GridCell.Tab.2.bottom" timestamp="1602447189520">
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602758851189" />
+    <state width="1345" height="223" key="GridCell.Tab.2.bottom" timestamp="1602758851192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602447189520" />
-    <state width="1345" height="223" key="GridCell.Tab.2.center" timestamp="1602447189520">
+    <state width="1345" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602758851192" />
+    <state width="1345" height="223" key="GridCell.Tab.2.center" timestamp="1602758851192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1602447189520" />
-    <state width="1345" height="223" key="GridCell.Tab.2.left" timestamp="1602447189520">
+    <state width="1345" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1602758851192" />
+    <state width="1345" height="223" key="GridCell.Tab.2.left" timestamp="1602758851191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1602447189520" />
-    <state width="1345" height="223" key="GridCell.Tab.2.right" timestamp="1602447189520">
+    <state width="1345" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1602758851191" />
+    <state width="1345" height="223" key="GridCell.Tab.2.right" timestamp="1602758851192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1602447189520" />
-    <state width="1345" height="223" key="GridCell.Tab.3.bottom" timestamp="1602447189520">
+    <state width="1345" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1602758851192" />
+    <state width="1345" height="223" key="GridCell.Tab.3.bottom" timestamp="1602758851197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602447189520" />
-    <state width="1345" height="223" key="GridCell.Tab.3.center" timestamp="1602447189520">
+    <state width="1345" height="223" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602758851197" />
+    <state width="1345" height="223" key="GridCell.Tab.3.center" timestamp="1602758851195">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1602447189520" />
-    <state width="1345" height="223" key="GridCell.Tab.3.left" timestamp="1602447189520">
+    <state width="1345" height="223" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1602758851195" />
+    <state width="1345" height="223" key="GridCell.Tab.3.left" timestamp="1602758851194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1602447189520" />
-    <state width="1345" height="223" key="GridCell.Tab.3.right" timestamp="1602447189520">
+    <state width="1345" height="223" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1602758851194" />
+    <state width="1345" height="223" key="GridCell.Tab.3.right" timestamp="1602758851196">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1602447189520" />
+    <state width="1345" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1602758851196" />
     <state x="184" y="7" key="SettingsEditor" timestamp="1600357151865">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

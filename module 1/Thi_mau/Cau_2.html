@@ -9,12 +9,12 @@
     function isFibonacci(num) {
         let fib = [0,1];
         let i=2;
-        if (num == 0){
+        if (num === 0){
             return true
         } else {
             do {
-                fib[i] = fib[i-1] + fib[i-2]
-                if (fib[i] == num) {
+                fib[i] = fib[i-1] + fib[i-2];
+                if (fib[i] === num) {
                     return true;
                 }
                 i++

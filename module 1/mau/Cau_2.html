@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let diem = parseInt(prompt('nhập điểm'))
+    if (diem >= 0 && diem <= 100){
+        if (diem < 50){
+            alert('kết quả trượt');
+        } else {
+            function lamTron(diem) {
+                if (diem % 5 === 3 ) {
+                    diem += 2;
+                }if (diem % 5 === 4) {
+                    diem += 1;
+                }
+                return diem
+            }
+        }
+    } else {
+        alert('số điểm sai')
+    }
+    alert('số điểm làm tròn' + lamTron(diem))
+
+</script>
+</body>
+</html>

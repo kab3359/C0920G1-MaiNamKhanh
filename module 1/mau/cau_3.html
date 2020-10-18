@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = []
+    let soPhanTu = parseInt(prompt('số phần tử'));
+    if (soPhanTu >= 50){
+        alert('sai')
+    } else {
+        for (let i=0; i<soPhanTu; i++){
+            mang.push(parseInt(prompt('phần tử số'+ i)))
+        }
+        let k = parseInt(prompt('số k'))
+        let capSo = [];
+        if (mang.length <= 50 && k > 0){
+            for (let i=0; i<mang.length; i++){
+                for (let j=i+1; j<mang.length; j++){
+                    if (((mang[i] + mang[j]) % k) == 0){
+                        capSo.push(mang[i])
+                        capSo.push(mang[j])
+                    }
+                }
+            }
+        }
+        alert("số lượng cặp số" + capSo.length/2)
+        alert(capSo)
+    }
+
+</script>
+</body>
+</html>
