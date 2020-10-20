@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9681549e-f0a8-4759-a201-43fcf7389438" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/14. Ham/Bai_tap/Kiem_tra_tu_doi_xung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/switch_case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Cau_truc_dieu_kien/thuc_hanh/toan_tu_ba_ngoi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai_tap_them_huong_doi_tuong/quan_ly_sinh_vien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai_tap_them_huong_doi_tuong/quan_ly_sinh_vien_nang_cao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case_study/a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case_study/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mau/Cau_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mau/cau_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mau/cau_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mau/quan_ly_san_pham_huong_doi_tuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mau/thi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12.Thuc_hanh_va_thao_tac_voi_mang/bai_tap/Su_dung_cac_ham_co_san_cua_bang.html" beforeDir="false" afterPath="$PROJECT_DIR$/12.Thuc_hanh_va_thao_tac_voi_mang/bai_tap/Su_dung_cac_ham_co_san_cua_bang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14. Ham/Bai_tap/Luyen_tap_tao_va_su_dung_ham_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/14. Ham/Bai_tap/Luyen_tap_tao_va_su_dung_ham_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Giai_thuat/Bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Giai_thuat/Bai_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thi_mau/Cau_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Thi_mau/Cau_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mau/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mau/1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +122,9 @@
       <workItem from="1602722081410" duration="14035000" />
       <workItem from="1602765525273" duration="4479000" />
       <workItem from="1602814900337" duration="8869000" />
-      <workItem from="1603003014036" duration="867000" />
+      <workItem from="1603003014036" duration="3711000" />
+      <workItem from="1603074032456" duration="3846000" />
+      <workItem from="1603106180845" duration="14000" />
     </task>
     <servers />
   </component>
