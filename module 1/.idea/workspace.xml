@@ -2,8 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9681549e-f0a8-4759-a201-43fcf7389438" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mau/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mau/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_1/bai_tap/HienThiLoiChao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_1/bai_tap/UngDungChuyenDoiTienTe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_2/bai_tap/HienThiCacLoaiHinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_2/bai_tap/HienThiCacSoNguyenToNhoHon100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_2/bai_tap/HienThiSoNguyenToDauTien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_2/thuc_hanh/KiemTraSoNguyenTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_2/thuc_hanh/ThietKeMenuChoUngDung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_2/thuc_hanh/TimUocChungLonNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_2/thuc_hanh/UngDungTienLaiChoVay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_3/bai_tap/DemSoLanXuatHienCuaKyTuTrongChuoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_3/bai_tap/GopMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_3/bai_tap/ThemPhanTuVaoMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_3/bai_tap/TimPhanTuLonNhatTrongMang2Chieu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_3/bai_tap/XoaPhanTuKhoiMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_3/thuc_hanh/ChuongTrinhChuyenDoiNhietDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_3/thuc_hanh/DaoNguocCacPhanTuCuaMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_3/thuc_hanh/TimGiaTriLonNhatTrongMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_3/thuc_hanh/TimGiaTriNhoNhatTrongMangSuDungPhuongThuc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_3/thuc_hanh/TimGiaTriTrongMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_4/bai_tap/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_4/bai_tap/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_4/bai_tap/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_4/thuc_hanh/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_5/bai_tap/AccessModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_5/bai_tap/TestCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_5/thuc_hanh/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_5/thuc_hanh/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_5/thuc_hanh/Simple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_5/thuc_hanh/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_5/thuc_hanh/TestStaticMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_5/thuc_hanh/TestStaticProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_5/thuc_hanh/mypack/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_5/thuc_hanh/mypack/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_5/thuc_hanh/pack/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_5/thuc_hanh/pack/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_6/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/session_6/Geometric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16. Lap_trinh_huong_doi_tuong/Bai_tap/Capture.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/16. Lap_trinh_huong_doi_tuong/Bai_tap/Capture.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 2/out/production/module 2/session_1/thuc_hanh/CheckLeapYear.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module 2/out/production/module 2/session_1/thuc_hanh/CheckLeapYear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 2/src/session_1/bai_tap/ReadNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module 2/src/session_1/bai_tap/ReadNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +163,7 @@
       <workItem from="1603003014036" duration="3711000" />
       <workItem from="1603074032456" duration="3846000" />
       <workItem from="1603106180845" duration="14000" />
+      <workItem from="1603701932729" duration="246000" />
     </task>
     <servers />
   </component>
