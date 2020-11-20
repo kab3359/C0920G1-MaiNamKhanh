@@ -8,12 +8,12 @@ import java.util.List;
 public class Villa extends Services {
     String standardRoom;
     String descriptionComfort;
-    double areaPool;
-    int numFloor;
-    private List<Services> villaList = new ArrayList<>();
+    String areaPool;
+    String numFloor;
 
-    private Villa(String id, String nameService, double areaUsed, double costRent, int numPeople, String standardRoom, String descriptionComfort, double areaPool, int numFloor) {
-        super(id, nameService, areaUsed, costRent, numPeople);
+    public Villa(String id, String nameService, String areaUsed, String costRent, String numPeople, String typeRent, String standardRoom,
+                 String descriptionComfort, String areaPool, String numFloor) {
+        super(id, nameService, areaUsed, costRent, numPeople, typeRent);
         this.standardRoom = standardRoom;
         this.descriptionComfort = descriptionComfort;
         this.areaPool = areaPool;
@@ -21,67 +21,68 @@ public class Villa extends Services {
     }
     public Villa(){};
 
-    public void addVilla(){
-        int idVilla = (villaList.size() > 0) ? (villaList.size() + 1) : 1;
-        System.out.println("product id = " + idVilla);
-        nameService = "Villa";
-        inputAreaUsed();
-        inputCostRent();
-        inputNumPeople();
-        inputStandardRoom();
-        MainController.input.nextLine();
-        inputDescriptionComfort();
-        inputAreaPool();
-        inputNumFloor();
-        Villa villa = new Villa(id, nameService, areaUsed, costRent, numPeople, standardRoom, descriptionComfort, areaPool, numFloor);
-        villaList.add(villa);
+
+
+    public String getStandardRoom() {
+        return standardRoom;
     }
 
-    private void inputNumFloor() {
-        System.out.println("Enter numFloor");
-        numFloor = MainController.input.nextInt();
+    public void setStandardRoom(String standardRoom) {
+        this.standardRoom = standardRoom;
     }
 
-    private void inputAreaPool() {
-        System.out.println("Enter areaPool");
-        areaPool = MainController.input.nextDouble();
+    public String getDescriptionComfort() {
+        return descriptionComfort;
     }
 
-    private void inputDescriptionComfort() {
-        System.out.println("Enter descriptionComfort");
-        descriptionComfort = MainController.input.nextLine();
+    public void setDescriptionComfort(String descriptionComfort) {
+        this.descriptionComfort = descriptionComfort;
     }
 
-    private void inputStandardRoom() {
-        System.out.println("Enter standardRoom");
-        standardRoom = MainController.input.nextLine();
+    public String getAreaPool() {
+        return areaPool;
     }
 
-    private void inputNumPeople() {
-        System.out.println("Enter numPeople");
-        numPeople = MainController.input.nextInt();
+    public void setAreaPool(String areaPool) {
+        this.areaPool = areaPool;
     }
 
-    private void inputCostRent() {
-        System.out.println("Enter costRent");
-        costRent = MainController.input.nextDouble();
+    public String getNumFloor() {
+        return numFloor;
     }
 
-    private void inputAreaUsed() {
-        System.out.println("Enter areaUsed");
-        areaUsed = MainController.input.nextDouble();
+    public void setNumFloor(String numFloor) {
+        this.numFloor = numFloor;
     }
 
     @Override
     public void showInfo() {
-        System.out.println("ID: " + id);
-        System.out.println("Name: " + nameService);
-        System.out.println("areaUsed: " + areaUsed);
-        System.out.println("costRent: " + costRent);
-        System.out.println("numPeople:" + numPeople);
-        System.out.println("standardRoom: " + standardRoom);
-        System.out.println("descriptionComfort: " + descriptionComfort);
-        System.out.println("areaPool: " + areaPool);
-        System.out.println("numFloor: " + numFloor);
+        System.out.println("ID: " + id + "| Name: " + nameService + "| areaUsed: " + areaUsed + "| costRent: " + costRent
+        + "| numPeople: " + numPeople + "| typeRent: " + typeRent + "| standardRoom: " + standardRoom + "| descriptionComfort: " + descriptionComfort
+        + "| areaPool: " + areaPool + "| numFloor: " + numFloor);
+//        System.out.println("Name: " + nameService);
+//        System.out.println("areaUsed: " + areaUsed);
+//        System.out.println("costRent: " + costRent);
+//        System.out.println("numPeople:" + numPeople);
+//        System.out.println("standardRoom: " + standardRoom);
+//        System.out.println("descriptionComfort: " + descriptionComfort);
+//        System.out.println("areaPool: " + areaPool);
+//        System.out.println("numFloor: " + numFloor);
     }
+
+//    @Override
+//    public String toString() {
+//        final StringBuilder sb = new StringBuilder("Villa{");
+//        sb.append("standardRoom='").append(standardRoom).append('\'');
+//        sb.append(", descriptionComfort='").append(descriptionComfort).append('\'');
+//        sb.append(", areaPool='").append(areaPool).append('\'');
+//        sb.append(", numFloor='").append(numFloor).append('\'');
+//        sb.append(", id='").append(id).append('\'');
+//        sb.append(", nameService='").append(nameService).append('\'');
+//        sb.append(", areaUsed='").append(areaUsed).append('\'');
+//        sb.append(", costRent='").append(costRent).append('\'');
+//        sb.append(", numPeople='").append(numPeople).append('\'');
+//        sb.append('}');
+//        return sb.toString();
+//    }
 }
