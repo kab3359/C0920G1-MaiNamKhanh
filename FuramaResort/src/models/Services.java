@@ -1,12 +1,12 @@
 package models;
 
 public abstract class Services {
-    String id;
-    String nameService;
-    String areaUsed;
-    String costRent;
-    String numPeople;
-    String typeRent;
+    protected String id;
+    protected String nameService;
+    protected String areaUsed;
+    protected String costRent;
+    protected String numPeople;
+    protected String typeRent;
 
     public Services(String id, String nameService, String areaUsed, String costRent, String numPeople, String typeRent) {
         this.id = id;

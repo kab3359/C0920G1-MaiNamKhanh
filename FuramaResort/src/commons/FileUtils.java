@@ -1,13 +1,13 @@
-package models;
+package commons;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class FileUtils {
-    public static void writeFile(String pathFile, String line){
+    public static void writeFile(String pathFile, String line, boolean append){
         try {
-            FileWriter fileWriter = new FileWriter(pathFile, true);
+            FileWriter fileWriter = new FileWriter(pathFile, append);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
             bufferedWriter.write(line);
             bufferedWriter.newLine();

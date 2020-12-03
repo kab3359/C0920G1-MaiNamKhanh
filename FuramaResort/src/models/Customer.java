@@ -6,16 +6,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Customer {
-    String ID;
-   String name;
-   String dateOfBirth;
-   String gender;
-   String cmnd;
-   String phone;
-   String email;
-   String type;
-   String address;
-   Services services;
+    private String ID;
+    private String name;
+    private String dateOfBirth;
+    private String gender;
+    private String cmnd;
+    private String phone;
+    private String email;
+    private String type;
+    private String address;
+    private Services services;
    public Customer(){};
 
     public Customer(String ID, String name, String dateOfBirth, String gender, String cmnd,
@@ -114,5 +114,8 @@ public class Customer {
     public void showInfo(){
         System.out.println("ID: " + getID() + "| name: " + name + "| dateOfBirth: " + dateOfBirth + "| gender: " + gender
                 + "| cmnd: " + cmnd + "| phone: " + phone + "| email: " + email + "| type: " + type + "| address: " + address);
+    }
+    public String writeFile(){
+        return ID + "," + name + "," + dateOfBirth + "," + gender + "," + cmnd + "," + phone + "," + email + "," + type + "," + address;
     }
 }

@@ -1,9 +1,9 @@
-package models;
+package commons;
 
 public class Validate {
     private static String regex = "";
     public static boolean checkServiceName(String str){
-        regex = "([A-Z][a-z]*[ ]*)";
+        regex = "([A-Z][a-z]*[ ])*([A-Z][a-z]*)";
         return str.matches(regex);
     }
     public static boolean checkArea(double dou){
@@ -41,7 +41,7 @@ public class Validate {
         return str.matches(regex);
     }
     public static boolean checkPhone(String str){
-        regex = "[0(+84)][-][0-9]{9}";
+        regex = "(0|[+]84)[-][0-9]{9}";
         return str.matches(regex);
     }
     public static boolean checkID(String str, String type){
@@ -55,5 +55,9 @@ public class Validate {
         }else if (type == "RO"){
             return str.matches(regexRoom);
         }return false;
+    }
+    public static boolean checkFreeService(String str){
+        regex = "((Massage)|(Karaoke)|(Food)|(Water)|(Car))";
+        return str.matches(regex);
     }
 }
