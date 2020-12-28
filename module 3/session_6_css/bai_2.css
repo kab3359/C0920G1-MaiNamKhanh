@@ -1,0 +1,11 @@
+p {
+    text-indent: 20px;
+    text-align: justify;
+}
+span {
+    color: blue;
+}
+a {
+    text-decoration: none;
+    color: aquamarine;
+}

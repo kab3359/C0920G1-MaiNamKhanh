@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*
+
+	Design by TEMPLATED
+	http://templated.co
+	Released for free under the Creative Commons Attribution License
+
+	Name       : Serious Face
+	Version    : 1.0
+	Released   : 20130222
+
+*/
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            color: #000000;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        body {
+            font-size: 12pt;
+            line-height: 1.75em;
+            font-family: Georgia, serif;
+            background: #D2E0DD;
+            color: #382b31;
+        }
+
+        br.clear {
+            clear: both;
+        }
+
+        h1,h2,h3,h4 {
+            text-transform: lowercase;
+        }
+
+        h2,h3,h4 {
+            margin-bottom: 1em;
+            font-family: Bitter, serif;
+            color: #000000;
+        }
+
+        strong {
+            color: #000000;
+        }
+
+        img.left {
+            float: left;
+            margin: 8px 20px 20px 0;
+        }
+
+        img.top {
+            margin: 8px 0 20px 0;
+        }
+
+        p {
+            margin-bottom: 1.5em;
+        }
+
+        ul {
+            margin-bottom: 1.5em;
+        }
+
+        .imageList {
+            list-style: none;
+        }
+
+        .imageList li {
+            clear: both;
+        }
+
+        #bg {
+            background: url('images/highlight.png') top left repeat-x;
+            padding: 0 0 64px 0;
+        }
+
+        #banner {
+            position: relative;
+            padding: 24px;
+            height: 172px;
+            width: 932px;
+            margin: 0 0 0 0;
+            background: #fff;
+        }
+
+        #box1 {
+            width: 740px;
+            overflow: hidden;
+            margin: 0 0 20px 0;
+        }
+
+        #box2 {
+            width: 360px;
+            overflow: hidden;
+            float: left;
+        }
+
+        #box3 {
+            width: 360px;
+            overflow: hidden;
+            margin: 0 0 0 380px;
+        }
+
+        #content {
+            width: 740px;
+            margin: 0 0 0 192px;
+            padding: 0;
+        }
+
+        #copyright {
+            text-align: center;
+            color: #819B95;
+            padding: 32px 0 0 0;
+        }
+
+        #copyright a {
+            color: #819B95;
+        }
+
+        #footer {
+            position: relative;
+            padding: 24px;
+            margin: 0 0 0 0;
+            width: 932px;
+            background: #2a5d60;
+            color: #b0c3c4;
+        }
+
+        #footer a {
+            color: #e8edee;
+        }
+
+        #footer h2, #footer h3, #footer h4 {
+            color: #fff;
+        }
+
+        #footer ul {
+            list-style: none;
+        }
+
+        #footer ul li {
+            padding: 8px 0 8px 0;
+            border-top: dotted 1px #557d80;
+        }
+
+        #footer ul li.first {
+            padding-top: 0;
+            border-top: 0;
+        }
+
+        #footerContent {
+            width: 740px;
+            margin: 0 0 0 192px;
+        }
+
+        #footerSidebar {
+            width: 172px;
+            float: left;
+        }
+
+        #header {
+            position: relative;
+            padding: 24px;
+            height: 150px;
+            width: 932px;
+            background: #34564f;
+            color: #fff;
+        }
+
+        #logo {
+            position: absolute;
+            top: 0;
+            left: 24px;
+            height: 150px;
+            line-height: 150px;
+        }
+
+        #logo a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        #logo h1 {
+            font-size: 2.75em;
+            font-family: Bitter, serif;
+        }
+
+        #main {
+            position: relative;
+            padding: 24px;
+            width: 932px;
+            color: #5e5e5e;
+        }
+
+        #main a {
+            color: #1c1c1c;
+        }
+
+        #main h2, #main h3, #main h4 {
+            color: #212121;
+        }
+
+        #main ul {
+            list-style: none;
+        }
+
+        #main ul li {
+            padding: 8px 0 8px 0;
+            border-top: dotted 1px #ccc;
+        }
+
+        #main ul li.first {
+            padding-top: 0;
+            border-top: 0;
+        }
+
+        #main ul.imageList li {
+            padding: 16px 0 16px 0;
+        }
+
+        #nav {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 57px;
+            line-height: 57px;
+            padding: 0 24px 0 24px;
+            width: 932px;
+            margin: 0 0 0 0;
+            background: #117848;
+        }
+
+        #nav a {
+            text-decoration: none;
+            text-transform: lowercase;
+            color: #fff;
+        }
+
+        #nav li {
+            margin: 0 1em 0 0;
+            padding: 0 1em 0 1em;
+        }
+
+        #nav li.active {
+            background: #fff;
+        }
+
+        #nav li.active a {
+            color: #34564F;
+        }
+
+        #nav ul {
+            list-style: none;
+        }
+
+        #nav ul li {
+            float: left;
+        }
+
+        #outer {
+            position: relative;
+            width: 980px;
+            margin: 0 auto 0 auto;
+            background: #fff;
+        }
+
+        #search {
+            position: absolute;
+            top: 0;
+            right: 24px;
+            height: 150px;
+            line-height: 150px;
+        }
+
+        #search input.button {
+            margin-left: 1em;
+            border: 0;
+            color: #fff;
+            background: #117848;
+            padding: 4px;
+            text-transform: lowercase;
+            font-family: Bitter, serif;
+        }
+
+        #search input.text {
+            border: solid 1px #5d7872;
+            padding: 4px;
+        }
+
+        #sidebar {
+            width: 172px;
+            float: left;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Serious Face by TEMPLATED</title>
+    <link href="http://fonts.googleapis.com/css?family=Bitter" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="bg">
+    <div id="outer">
+        <div id="header">
+            <div id="logo">
+                <h1>
+                    <a href="#">Serious Face</a>
+                </h1>
+            </div>
+            <div id="search">
+                <form action="" method="post">
+                    <input class="text" name="search" size="32" maxlength="64"><input class="button" type="submit" value="Search">
+                </form>
+            </div>
+            <div id="nav">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Our Clients</a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li class="last">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+                <br class="clear">
+            </div>
+        </div>
+        <div id="banner">
+            <img src="images/pic1.jpg" width="932" height="172" alt="">
+        </div>
+        <div id="main">
+            <div id="sidebar">
+                <h3>
+                    Auctor lacus
+                </h3>
+                <ul class="linkedList">
+                    <li class="first">
+                        <a href="#">Vitae et suspendisse integer dolore</a>
+                    </li>
+                    <li>
+                        <a href="#">Molestie magnis sed amet nascetur</a>
+                    </li>
+                    <li>
+                        <a href="#">Augue sagittis dolor</a>
+                    </li>
+                    <li>
+                        <a href="#">Orci lectus leo urna</a>
+                    </li>
+                    <li>
+                        <a href="#">Odio volutpat vivamus</a>
+                    </li>
+                    <li class="last">
+                        <a href="#">Porttitor fermentum amet commodo</a>
+                    </li>
+                </ul>
+                <h3>
+                    Varius
+                </h3>
+                <div class="dateList">
+                    <ul class="linkedList">
+                        <li class="first">
+                            <a href="#">Sapien et nascetur</a>
+                        </li>
+                        <li>
+                            <a href="#">Nascetur sed vivamus</a>
+                        </li>
+                        <li>
+                            <a href="#">Nisi amet et sagittis</a>
+                        </li>
+                        <li>
+                            <a href="#">Duis cras lorem odio</a>
+                        </li>
+                        <li class="last">
+                            <a href="#">Sed consequat purus</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content">
+                <div id="box1">
+                    <h2>
+                        Welcome to Serious Face
+                    </h2><img class="left" src="images/pic2.jpg" width="184" height="184" alt="">
+                    <p>
+                        This is <strong>Serious Face</strong>, a two column CSS template by
+                        <a href="http://templated.co" rel="nofollow">TEMPLATED</a> with photos from
+                        <a href="http://www.pdphoto.org/">PDPhoto</a>. It's released (for free) under the
+                        <a href="http://templated.co/license/">Creative Commons Attribution license</a>,
+                        so feel free to use it for any personal or commercial work (just give us credit for it).
+                        Hit up our <a href="http://templated.co">website</a> for more awesomely
+                        cool free templates, and follow us on <a href="http://twitter.com/templatedco">Twitter</a>
+                        (<a href="http://twitter.com/templatedco">@templatedco</a>) for updates, announcements, and other
+                        mildly interesting ramblings.
+                    </p>
+                </div>
+                <div id="box2">
+                    <h3>
+                        Parturient amet blandit
+                    </h3>
+                    <ul class="imageList">
+                        <li class="first">
+                            <img class="left" src="images/pic2.jpg" width="72" height="72" alt=""> <span>Iaculis risus lectus tortor libero nisl quisque nunc mauris parturient amet suspendisse in porta.</span>
+                        </li>
+                        <li>
+                            <img class="left" src="images/pic2.jpg" width="72" height="72" alt=""> <span>Lacinia tristique dis cras mattis ultricies massa leo metus rhoncus augue nascetur suscipit velit.</span>
+                        </li>
+                        <li class="last">
+                            <img class="left" src="images/pic2.jpg" width="72" height="72" alt=""> <span>Nunc integer sed arcu vitae nascetur placerat magnis donec proin fusce neque elementum nulla.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div id="box3">
+                    <h3>
+                        Aenean accumsan
+                    </h3><img class="top" src="images/pic1.jpg" width="360" height="155" alt="">
+                    <p>
+                        Parturient cras orci augue parturient. Cursus donec elementum consectetur consequat. Mattis ultricies
+                        amet consequat magna non vel placerat lorem ipsum dolore sit amet nullam consequat. Lacinia tristique
+                        dis cras mattis ultricies.
+                    </p>
+                </div>
+                <br class="clear">
+            </div>
+            <br class="clear">
+        </div>
+    </div>
+    <div id="copyright">
+        © Your Site Name | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>
+    </div>
+</div>
+
+
+</body>
+</html>
+</body>
+</html>

@@ -113,6 +113,7 @@ FOREIGN KEY (id_dich_vu_di_kem) REFERENCES dich_vu_di_kem(id_dich_vu_di_kem),
 FOREIGN KEY (id_hop_dong) REFERENCES hop_dong(id_hop_dong)
 );
 
+
 -- ALTER table hop_dong_chi_tiet
 -- DROP FOREIGN KEY hop_dong_chi_tiet_ibfk_2;
 -- ALTER table hop_dong_chi_tiet

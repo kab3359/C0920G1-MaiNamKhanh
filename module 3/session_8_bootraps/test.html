@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<button data-target="#add">a</button>
+<div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel2">Add New Customer</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="?action=create" method="post">
+                    <table class="table table-striped table-hover table-bordered">
+                        <tr>
+                            <th>Customer ID:</th>
+                            <td>
+                                <p style="color: red"><c:out value="${message}"/></p>
+                                <input type="text" name="id" size="45">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Customer Type ID:</th>
+                            <td>
+                                <input type="text" name="typeId" size="45" value="${customer.getTypeId()}" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Customer Name:</th>
+                            <td>
+                                <input type="text" name="name" size="45" value="${customer.getName()}" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Customer Birthday:</th>
+                            <td>
+                                <input type="date" name="birthday" size="45" value="${customer.getBirthday()}" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Customer Gender:</th>
+                            <td>
+                                <input type="text" name="gender" size="45" value="${customer.getGender()}" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Customer Id Card:</th>
+                            <td>
+                                <input type="text" name="idCard" size="45" value="${customer.getIdCard()}" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Customer Phone:</th>
+                            <td>
+                                <input type="text" name="phone" size="45" value="${customer.getPhone()}" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Customer Email:</th>
+                            <td>
+                                <input type="text" name="email" size="45" value="${customer.getEmail()}" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Customer Address:</th>
+                            <td>
+                                <input type="text" name="address" size="45" value="${customer.getAddress()}" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="Save" class="btn btn-success text-white">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

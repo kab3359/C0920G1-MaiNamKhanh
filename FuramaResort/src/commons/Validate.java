@@ -45,7 +45,7 @@ public class Validate {
         return str.matches(regex);
     }
     public static boolean checkID(String str, String type){
-        String regexVilla = "(SVVL-)[0-9]{4}";
+            String regexVilla = "(SVVL-)[0-9]{4}";
         String regexHouse = "(SVHO-)[0-9]{4}";
         String regexRoom = "(SVRO-)[0-9]{4}";
         if (type == "VL"){

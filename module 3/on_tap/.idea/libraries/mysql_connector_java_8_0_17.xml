@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="mysql-connector-java-8.0.17">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../apache-tomcat-8.5.61/thu_vien_database/mysql-connector-java-8.0.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../apache-tomcat-8.5.61/thu_vien_database/servlet-api-2.5-6.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

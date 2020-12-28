@@ -2,41 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9681549e-f0a8-4759-a201-43fcf7389438" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FuramaResort/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FuramaResort/src/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FuramaResort/src/While.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FuramaResort/src/data/Booking.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FuramaResort/src/models/NameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 2/src/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 2/src/TestKab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/controllers/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/data/Customer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/data/Customer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/data/Villa.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/FileUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/House.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Services.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Services.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Validate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Villa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/models/Villa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/views/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/out/production/FuramaResort/views/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/data/Customer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/data/Customer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/data/Villa.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/models/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/models/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/commons/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/models/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/models/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/models/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/models/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/models/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/models/Services.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/models/Validate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/commons/Validate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/models/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/models/Villa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/views/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/views/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module 2/out/production/module 2/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module 2/out/production/module 2/_02_loop_array/TestArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module 2/out/production/module 2/_02_loop_array/TestDoWhile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module 2/src/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module 2/src/TestArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module 2/src/TestArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module 2/src/TestDoWhile.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/Test1/src/com/codegym/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/Test1/src/com/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/Test1/src/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/Test1/src/com/codegym/service/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/Test1/web/customer/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/Test1/web/customer/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/Test1/web/customer/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/Test1/web/customer/editCustomer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/Test1/web/customer/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/Test1/web/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/Test1/web/customer/newCustomer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/Test1/web/customer/searchCustomerById.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/Test1/web/customer/searchCustomerByName.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/Test1/web/customer/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/case_study_java_web/.idea/libraries/mysql_connector_java_8_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/case_study_java_web/src/common/Validate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/case_study_java_web/src/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/case_study_java_web/src/controller/CustomerTypeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/case_study_java_web/src/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/case_study_java_web/src/dao/CustomerTypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/case_study_java_web/src/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/case_study_java_web/src/model/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/case_study_java_web/web/customer/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/case_study_java_web/web/customerType/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/case_study_java_web/web/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/connect_database/src/com/codegym/controller/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/connect_database/src/com/codegym/dao/IUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/connect_database/src/com/codegym/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/connect_database/src/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/connect_database/web/WEB-INF/libs/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/connect_database/web/WEB-INF/libs/servlet-api-2.5-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/connect_database/web/user/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_6_css/bai_1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_6_css/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_6_css/bai_2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_6_css/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_6_css/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_7_thiet_ke_bo_cuc/bai_tap_tao_layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_7_thiet_ke_bo_cuc/bai_tap_tao_layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_7_thiet_ke_bo_cuc/bai_tap_tao_trang_web.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_7_thiet_ke_bo_cuc/bai_tap_tao_trang_web.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_7_thiet_ke_bo_cuc/menu_fixed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_7_thiet_ke_bo_cuc/menu_fixed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_7_thiet_ke_bo_cuc/thuc_hanh_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_7_thiet_ke_bo_cuc/thuc_hanh_2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_7_thiet_ke_bo_cuc/thuc_hanh_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_7_thiet_ke_bo_cuc/thuc_hanh_tao_media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_7_thiet_ke_bo_cuc/thuc_hanh_tao_media.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_7_thiet_ke_bo_cuc/thuc_hanh_tao_menu_doc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_7_thiet_ke_bo_cuc/thuc_hanh_tao_menu_doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_7_thiet_ke_bo_cuc/thuc_hanh_tao_menu_ngang.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_7_thiet_ke_bo_cuc/thuc_hanh_tao_menu_ngang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_8_bootraps/case_study.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_8_bootraps/gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_8_bootraps/test 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_8_bootraps/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_9/src/ConverterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_9/src/Product_Discount_Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_9/src/simple_dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_9/web/Product_Discount_Calculator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/session_9/web/simple_dictionary.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/commons/Validate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/commons/Validate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/task1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../module 3/task1.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +75,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -66,6 +95,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -160,6 +190,9 @@
       <workItem from="1603106180845" duration="14000" />
       <workItem from="1603701932729" duration="246000" />
       <workItem from="1606439062093" duration="11000" />
+      <workItem from="1607389869165" duration="5169000" />
+      <workItem from="1607432419841" duration="90000" />
+      <workItem from="1608180481142" duration="654000" />
     </task>
     <servers />
   </component>
@@ -179,6 +212,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1600764125184" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1607432503851">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607432503851" />
     <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1602758851188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
