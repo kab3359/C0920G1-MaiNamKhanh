@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc944071-e0a0-42c1-a83f-bfbaf73aa6c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../module 3/on_tap/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 3/on_tap/src/controller/HopDongServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 3/on_tap/src/model/BenhNhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 3/on_tap/src/model/HopDong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 3/on_tap/src/model/NguoiDoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 3/on_tap/src/model/Sach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 3/on_tap/src/reponsive/HopDongReponsive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 3/on_tap/web/hopdong/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 3/on_tap/web/hopdong/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.61/webapps/ROOT/RELEASE-NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.61/webapps/ROOT/WEB-INF/CharsetFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.61/webapps/ROOT/WEB-INF/jstl-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.61/webapps/ROOT/WEB-INF/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.61/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache-tomcat-8.5.61/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.61/webapps/ROOT/asf-logo-wide.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.61/webapps/ROOT/bg-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.61/webapps/ROOT/bg-middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.61/webapps/ROOT/bg-nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.61/webapps/ROOT/bg-upper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.61/webapps/ROOT/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.61/webapps/ROOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache-tomcat-8.5.61/webapps/ROOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.61/webapps/ROOT/tomcat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.61/webapps/ROOT/tomcat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/connection/MySQLconnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/connection/MySQLconnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/controller/ContractDetailServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/controller/ContractServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/controller/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/controller/EmployeeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/controller/ServiceServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/controller/StudentServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/AttachService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/Contract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/ContractDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/HocSinh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/LopHoc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/RentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/ServiceType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/reponsive/AttachServiceReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/reponsive/ContractDetailReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/reponsive/ContractReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/reponsive/CustomerReponsive.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/reponsive/CustomerReponsive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/reponsive/EmployeeReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/reponsive/HocSinhReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/reponsive/ServiceReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/validate/Validate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/validate/Validate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/contract/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/contract/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/contractDetail/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/employee/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/employee/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/employee/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/service/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/service/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/service/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/artifacts/furama_war_exploded/student/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/connection/MySQLconnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/connection/MySQLconnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/controller/ContractDetailServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/controller/ContractServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/controller/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/controller/EmployeeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/controller/ServiceServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/controller/StudentServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/model/AttachService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/model/Contract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/model/ContractDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/model/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/model/HocSinh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/model/LopHoc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/model/RentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/model/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/model/ServiceType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/reponsive/AttachServiceReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/reponsive/ContractDetailReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/reponsive/ContractReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/reponsive/CustomerReponsive.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/reponsive/CustomerReponsive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/reponsive/EmployeeReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/reponsive/HocSinhReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/reponsive/ServiceReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/validate/Validate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 3/on_tap/out/production/furama/validate/Validate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/connection/MySQLconnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 3/on_tap/src/connection/MySQLconnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/controller/ContractDetailServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/controller/ContractServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 3/on_tap/src/controller/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/controller/EmployeeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/controller/ServiceServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/controller/StudentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/model/AttachService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/model/Contract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/model/ContractDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/model/HocSinh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/model/LopHoc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/model/RentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/model/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/model/ServiceType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/reponsive/AttachServiceReponsive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/reponsive/ContractDetailReponsive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/reponsive/ContractReponsive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/reponsive/CustomerReponsive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 3/on_tap/src/reponsive/CustomerReponsive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/reponsive/EmployeeReponsive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/reponsive/HocSinhReponsive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/reponsive/ServiceReponsive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/src/validate/Validate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 3/on_tap/src/validate/Validate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/web/contract/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/web/contract/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/web/contractDetail/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/web/employee/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/web/employee/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/web/employee/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/web/service/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/web/service/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/web/service/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 3/on_tap/web/student/list.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="bradle" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\java\module 4\bradle\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1mOwaJ3hKpoPxIH6XDdyGXvZqmL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tong_quan_spring_mvc/bradle" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="spring" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java\module 4\bradle\src\main\webapp\WEB-INF\views" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.611" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.611" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : org.example : bradle-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_bradle" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53880" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : org.example : bradle-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_bradle" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53880" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc944071-e0a0-42c1-a83f-bfbaf73aa6c8" name="Default Changelist" comment="" />
+      <created>1609378006154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609378006154</updated>
+      <workItem from="1609378010901" duration="10893000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609380366993">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1609380366993" />
+    <state x="402" y="290" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609380802401">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="402" y="290" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1609380802401" />
+    <state x="430" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609380203280">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="430" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1609380203280" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1609393636114">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609393636114" />
+    <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1609393641030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609393641030" />
+    <state width="905" height="179" key="GridCell.Tab.0.center" timestamp="1609393641030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609393641030" />
+    <state width="905" height="179" key="GridCell.Tab.0.left" timestamp="1609393641029">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609393641029" />
+    <state width="905" height="179" key="GridCell.Tab.0.right" timestamp="1609393641030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609393641030" />
+    <state width="905" height="179" key="GridCell.Tab.1.bottom" timestamp="1609393641030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609393641030" />
+    <state width="905" height="179" key="GridCell.Tab.1.center" timestamp="1609393641030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1609393641030" />
+    <state width="905" height="179" key="GridCell.Tab.1.left" timestamp="1609393641030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1609393641030" />
+    <state width="905" height="179" key="GridCell.Tab.1.right" timestamp="1609393641030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1609393641030" />
+    <state width="905" height="179" key="GridCell.Tab.2.bottom" timestamp="1609393641030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609393641030" />
+    <state width="905" height="179" key="GridCell.Tab.2.center" timestamp="1609393641030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1609393641030" />
+    <state width="905" height="179" key="GridCell.Tab.2.left" timestamp="1609393641030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1609393641030" />
+    <state width="905" height="179" key="GridCell.Tab.2.right" timestamp="1609393641030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1609393641030" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1609383077490">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1609383077490" />
+    <state x="499" y="143" key="chooseDestDirectoryDialog" timestamp="1609380973057">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="143" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1609380973057" />
+  </component>
+</project>

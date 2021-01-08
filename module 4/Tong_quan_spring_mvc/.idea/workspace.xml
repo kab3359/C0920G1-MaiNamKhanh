@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c76b825d-5c68-4863-8ff2-289fdeec2547" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../module 3/on_tap/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/on_tap/src/controller/HopDongServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/on_tap/src/model/BenhNhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/on_tap/src/model/HopDong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/on_tap/src/model/NguoiDoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/on_tap/src/model/Sach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/on_tap/src/reponsive/HopDongReponsive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/on_tap/web/hopdong/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 3/on_tap/web/hopdong/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/connection/MySQLconnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/connection/MySQLconnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/controller/ContractDetailServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/controller/ContractServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/controller/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/controller/EmployeeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/controller/ServiceServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/controller/StudentServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/AttachService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/Contract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/ContractDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/HocSinh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/LopHoc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/RentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/model/ServiceType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/reponsive/AttachServiceReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/reponsive/ContractDetailReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/reponsive/ContractReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/reponsive/CustomerReponsive.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/reponsive/CustomerReponsive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/reponsive/EmployeeReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/reponsive/HocSinhReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/reponsive/ServiceReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/validate/Validate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/WEB-INF/classes/validate/Validate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/contract/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/contract/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/contractDetail/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/employee/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/employee/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/employee/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/service/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/service/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/service/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/artifacts/furama_war_exploded/student/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/connection/MySQLconnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/connection/MySQLconnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/controller/ContractDetailServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/controller/ContractServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/controller/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/controller/EmployeeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/controller/ServiceServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/controller/StudentServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/model/AttachService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/model/Contract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/model/ContractDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/model/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/model/HocSinh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/model/LopHoc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/model/RentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/model/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/model/ServiceType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/reponsive/AttachServiceReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/reponsive/ContractDetailReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/reponsive/ContractReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/reponsive/CustomerReponsive.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/reponsive/CustomerReponsive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/reponsive/EmployeeReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/reponsive/HocSinhReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/reponsive/ServiceReponsive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/validate/Validate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module 3/on_tap/out/production/furama/validate/Validate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/connection/MySQLconnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module 3/on_tap/src/connection/MySQLconnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/controller/ContractDetailServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/controller/ContractServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module 3/on_tap/src/controller/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/controller/EmployeeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/controller/ServiceServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/controller/StudentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/model/AttachService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/model/Contract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/model/ContractDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/model/HocSinh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/model/LopHoc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/model/RentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/model/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/model/ServiceType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/reponsive/AttachServiceReponsive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/reponsive/ContractDetailReponsive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/reponsive/ContractReponsive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/reponsive/CustomerReponsive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module 3/on_tap/src/reponsive/CustomerReponsive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/reponsive/EmployeeReponsive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/reponsive/HocSinhReponsive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/reponsive/ServiceReponsive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/src/validate/Validate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module 3/on_tap/src/validate/Validate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/web/contract/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/web/contract/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/web/contractDetail/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/web/employee/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/web/employee/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/web/employee/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/web/service/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/web/service/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/web/service/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 3/on_tap/web/student/list.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\java\module 4\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mMUF5GFE4x2EiwfWmaNS8YXlk2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c76b825d-5c68-4863-8ff2-289fdeec2547" name="Default Changelist" comment="" />
+      <created>1609302846884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609302846884</updated>
+      <workItem from="1609302853430" duration="152000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1609303006878">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609303006878" />
+    <state x="65" y="0" key="new project wizard" timestamp="1609303015372">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1609303015372" />
+  </component>
+</project>
