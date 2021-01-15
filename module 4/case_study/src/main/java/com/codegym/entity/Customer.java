@@ -3,14 +3,16 @@ package com.codegym.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import javax.validation.constraints.*;
 import java.sql.Date;
+import java.time.LocalDate;
 import java.util.Set;
 
 @Entity
 @Table(name = "customer")
 public class Customer {
     @Id
-    @GeneratedValue (strategy = GenerationType.IDENTITY, generator = "my_generator")
+    @GeneratedValue (generator = "my_generator")
     @GenericGenerator(name = "my_generator", strategy = "com.codegym.common.MyGenerator")
     @Column(name = "customer_id")
     private String id;
@@ -19,6 +21,7 @@ public class Customer {
     private Set<Contract> contracts;
 
     @Column (name = "customer_name")
+    @NotBlank
     private String name;
 
     @ManyToOne
@@ -35,15 +38,36 @@ public class Customer {
     private String idCard;
 
     @Column (name = "customer_phone")
+    @Pattern(regexp = "[0-9]{5}", message = "phone ko đúng định dạng")
     private String phone;
 
     @Column (name = "customer_email")
+    @Email(message = "email sai định dạng")
     private String email;
 
     @Column (name = "customer_address")
     private String address;
 
+    @Column (name = "customer_picture")
+    private String picture;
+
     public Customer() {
+    }
+
+    public Set<Contract> getContracts() {
+        return contracts;
+    }
+
+    public void setContracts(Set<Contract> contracts) {
+        this.contracts = contracts;
+    }
+
+    public String getPicture() {
+        return picture;
+    }
+
+    public void setPicture(String picture) {
+        this.picture = picture;
     }
 
     public String getId() {

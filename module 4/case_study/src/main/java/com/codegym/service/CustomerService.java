@@ -1,9 +1,12 @@
 package com.codegym.service;
 
 import com.codegym.entity.Customer;
+import com.codegym.entity.CustomerType;
 import org.springframework.context.annotation.Primary;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 
+import java.awt.print.Pageable;
 import java.util.List;
 
 
@@ -13,4 +16,6 @@ public interface CustomerService {
     void delete(String id);
     Customer findById(String id);
     List<Customer> findByName(String name);
+    List<Customer> findAllByCustomerType(CustomerType customerType);
+    Page<Customer> findAll(Pageable pageable);
 }

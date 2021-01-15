@@ -5,6 +5,9 @@
     <title>Title</title>
 </head>
 <body>
+<form th:action="@{/customer/searchByType}">
+    <input type="text" name="id">
+</form>
 <h1>List All Customer</h1>
 <a th:href="@{/customer/create}">
     <button>Add New Customer</button>
@@ -21,6 +24,7 @@
         <th>Phone</th>
         <th>Email</th>
         <th>Address</th>
+        <th>Picture</th>
         <th>Action</th>
     </tr>
     </thead>
@@ -30,17 +34,26 @@
         <td th:text="${customer.customerType.name}"></td>
         <td th:text="${customer.name}"></td>
         <td th:text="${customer.date}"></td>
-        <td th:text="${customer.gender}"></td>
+        <td th:switch="${customer.gender}">
+            <span th:case="true">Nam</span>
+            <span th:case="false">Nữ</span>
+        </td>
         <td th:text="${customer.idCard}"></td>
         <td th:text="${customer.phone}"></td>
         <td th:text="${customer.email}"></td>
         <td th:text="${customer.address}"></td>
+        <td><img th:src="@{'/'+${customer.picture}}" height="100px" width="100px"></td>
         <td>
-            <a th:href="@{/edit/{id}(id=${customer.id})}"><button>Edit</button></a>
-            <a th:href="@{/delete/{id}(id=${customer.id})}"><button>Delete</button></a>
+            <a th:href="@{/customer/{id}/edit(id=${customer.id})}"><button>Edit</button></a>
+            <a th:href="@{/customer/{id}/delete(id=${customer.id})}"><button>Delete</button></a>
         </td>
     </tr>
     </tbody>
 </table>
+<div>
+    <a th:href="@{'/customerList'(page=${customerList.number - 1})}" th:if="${customerList.hasPrevious()}">Previous</a>
+    <span th:text="${customerList.number + 1}"></span>/<span th:text="${customerList.totalPages}"></span>
+    <a th:href="@{'/customerList'(page=${customerList.number + 1})}" th:if="${customerList.hasNext()}">Next</a>
+</div>
 </body>
 </html>

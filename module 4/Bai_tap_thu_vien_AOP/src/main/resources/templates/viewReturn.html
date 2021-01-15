@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/deleteContract}" th:object="${contract}">
+    <label>ID</label>
+    <input type="text" th:field="*{id}"><br>
+    <span th:if="${#fields.hasErrors('id')}" th:errors="*{id}"></span>
+    <span th:if="${message}" th:text="${message}"></span>
+    <label>ID Book</label>
+    <input th:field="*{book.id}" readonly><br>
+    <label>Name Book</label>
+    <input th:field="*{book.name}" readonly><br>
+    <label>Number</label>
+    <input th:field="*{book.quantity}" readonly><br>
+    <button type="submit">Return</button>
+</form>
+</body>
+</html>

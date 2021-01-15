@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<body>
+<form th:action="@{/customer/searchByType}">
+    <input type="text" name="id">
+</form>
+<form>
+    Search by name:
+    <input name="s" type="text"/>
+    <input type="submit" value="Search"/>
+</form><br/>
+<form>
+    Search by address:
+    <input name="address" type="text"/>
+    <input type="submit" value="Search"/>
+</form>
+<h1>List All Customer</h1>
+<a th:href="@{/customer/create}">
+    <button>Add New Customer</button>
+</a>
+<table class="table table-striped table-hover table-bordered">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Birthday</th>
+        <th>Gender</th>
+        <th>ID Card</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Picture</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="customer: ${customers}">
+        <td th:text="${customer.id}"></td>
+        <td th:text="${customer.customerType.name}"></td>
+        <td th:text="${customer.name}"></td>
+        <td th:text="${customer.date.date}+'/'+${customer.date.month+1}+'/'+${customer.date.year+1900}"></td>
+        <td th:switch="${customer.gender}">
+            <span th:case="true">Nam</span>
+            <span th:case="false">Nữ</span>
+        </td>
+        <td th:text="${customer.idCard}"></td>
+        <td th:text="${customer.phone}"></td>
+        <td th:text="${customer.email}"></td>
+        <td th:text="${customer.address}"></td>
+        <td><img th:src="@{'/'+${customer.picture}}" height="100px" width="100px"></td>
+        <td>
+            <a th:href="@{/customer/{id}/edit(id=${customer.id})}"><button>Edit</button></a>
+            <a th:href="@{/customer/{id}/delete(id=${customer.id})}"><button>Delete</button></a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<div>
+<!--    <a th:href="@{'/customer'(page=${customers.number - 1})}" th:if="${customers.hasPrevious()}">Previous</a>-->
+<!--    <span th:text="${customers.number + 1}"></span>/<span th:text="${customers.totalPages}"></span>-->
+<!--    <a th:href="@{'/customer'(page=${customers.number + 1})}" th:if="${customers.hasNext()}">Next</a>-->
+
+<!--    <a th:href="@{/customer}">First</a>-->
+<!--    <a th:href="@{'/customer'(page=${customers.number + 1})}" th:text="${customers.number + 1}"></a>-->
+<!--    <a th:href="@{'/customer'(page=${customers.number + 2})}" th:text="${customers.number + 2}"></a>-->
+<!--    <a th:href="@{'/customer'(page=${customers.number + 3})}" th:text="${customers.number + 3}"></a>-->
+<!--    <a th:href="@{'/customer'(page=${customers.totalPages - 1})}">Last</a>-->
+</div>
+
+<div class="pagination-div">
+    <span th:if="${customers.hasPrevious()}">
+        <a th:href="@{'/customer'(page=${customers.number - 1},size=${customers.size})}">Previous</a>
+    </span>
+    <th:block th:each="i: ${#numbers.sequence(0, customers.totalPages - 1)}">
+        <span th:if="${customers.number == i}" class="selected">[[${i}+1]]</span>
+        <span th:unless="${customers.number == i}">
+             <a th:href="@{'/customer'(page=${i},size=${customers.size})}">[[${i}+1]]</a>
+        </span>
+    </th:block>
+    <span th:if="${customers.hasNext()}">
+        <a th:href="@{'/customer'(page=${customers.number+1},size=${customers.size})}">Next</a>
+    </span>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
