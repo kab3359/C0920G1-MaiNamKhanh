@@ -19,5 +19,4 @@ public interface CustomerService {
     List<Customer> findAllByCustomerType(CustomerType customerType);
     Page<Customer> findAll(Pageable pageable);
     Page<Customer> findAllByNameContaining(String name, Pageable pageable);
-    Page<Customer> findAllByAddressContaining(String name, Pageable pageable);
 }

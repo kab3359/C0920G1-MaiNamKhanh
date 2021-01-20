@@ -21,8 +21,8 @@ public class Customer {
     @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL)
     private Set<Contract> contracts;
 
+    @NotBlank(message = "tên ko dc bỏ trống")
     @Column (name = "customer_name")
-    @NotBlank
     private String name;
 
     @ManyToOne
@@ -30,8 +30,6 @@ public class Customer {
     private CustomerType customerType;
 
     @Column (name = "customer_birthday")
-    @Past
-//    @Pattern(regexp = "[0-9]{4}[-][0-9]{2}[-][0-9]{2}", message = "abc")
     private Date date;
 
     @Column (name = "customer_gender")
@@ -42,36 +40,29 @@ public class Customer {
     private String idCard;
 
     @Column (name = "customer_phone")
-    @Pattern(regexp = "[0-9]{5}", message = "phone ko đúng định dạng")
     private String phone;
 
     @Column (name = "customer_email")
-    @Email(message = "email sai định dạng")
     private String email;
 
-    @Column (name = "customer_address")
-    private String address;
+    @Column (name = "city")
+    private String city;
+
+    @Column (name = "district")
+    private String district;
+
+    @Column (name = "ward")
+    private String ward;
+
+    @ManyToOne
+    @JoinColumn(name = "city1", nullable = false, referencedColumnName = "id")
+    private City city1;
+
 
     @Column (name = "customer_picture")
     private String picture;
 
     public Customer() {
-    }
-
-    public Set<Contract> getContracts() {
-        return contracts;
-    }
-
-    public void setContracts(Set<Contract> contracts) {
-        this.contracts = contracts;
-    }
-
-    public String getPicture() {
-        return picture;
-    }
-
-    public void setPicture(String picture) {
-        this.picture = picture;
     }
 
     public String getId() {
@@ -80,6 +71,14 @@ public class Customer {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public Set<Contract> getContracts() {
+        return contracts;
+    }
+
+    public void setContracts(Set<Contract> contracts) {
+        this.contracts = contracts;
     }
 
     public String getName() {
@@ -138,11 +137,35 @@ public class Customer {
         this.email = email;
     }
 
-    public String getAddress() {
-        return address;
+    public String getCity() {
+        return city;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getDistrict() {
+        return district;
+    }
+
+    public void setDistrict(String district) {
+        this.district = district;
+    }
+
+    public String getWard() {
+        return ward;
+    }
+
+    public void setWard(String ward) {
+        this.ward = ward;
+    }
+
+    public String getPicture() {
+        return picture;
+    }
+
+    public void setPicture(String picture) {
+        this.picture = picture;
     }
 }

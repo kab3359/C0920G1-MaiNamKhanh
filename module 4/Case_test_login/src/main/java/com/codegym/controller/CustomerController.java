@@ -1,29 +1,25 @@
 package com.codegym.controller;
 
+import com.codegym.entity.City;
 import com.codegym.entity.Customer;
 import com.codegym.entity.CustomerType;
-import com.codegym.service.CustomerService;
-import com.codegym.service.CustomerTypeService;
+import com.codegym.entity.Ward;
+import com.codegym.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.web.PageableDefault;
-import org.springframework.data.web.config.EnableSpringDataWebSupport;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import javax.naming.Binding;
 import javax.validation.Valid;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.Optional;
 
 @Controller
 @RequestMapping("/customer")
@@ -32,6 +28,13 @@ public class CustomerController {
     CustomerService customerService;
     @Autowired
     CustomerTypeService customerTypeService;
+    @Autowired
+    CityService cityService;
+    @Autowired
+    DistrictService districtService;
+    @Autowired
+    WardService wardService;
+
 //
 //    @GetMapping({"", "/list"})
 //    public String show(Model model){
@@ -43,26 +46,42 @@ public class CustomerController {
     public String create(Model model){
         model.addAttribute("customer", new Customer());
         model.addAttribute("customerTypeList", customerTypeService.findAll());
+        model.addAttribute("city", cityService.findAll());
+        return "customer/create";
+    }
+    @GetMapping("/listDistrict/{id}")
+    public String listDistrict(@PathVariable int id, Model model){
+        model.addAttribute("district", "abc");
+        model.addAttribute("customer", new Customer());
+        model.addAttribute("customerTypeList", customerTypeService.findAll());
+        model.addAttribute("city", cityService.findAll());
         return "customer/create";
     }
 
     @PostMapping("/save")
-    public String save(@Valid @ModelAttribute  Customer customer, BindingResult bindingResult, Model model){
+    public String save(@Valid @ModelAttribute  Customer customer, BindingResult bindingResult, Model model,
+                       RedirectAttributes redirectAttributes){
         if(bindingResult.hasErrors()){
             model.addAttribute("customerTypeList", customerTypeService.findAll());
-            return "customer/create";
+            model.addAttribute("status", "error");
+            return "customer/list";
+        }else {
+            redirectAttributes.addFlashAttribute("status", "create");
+            redirectAttributes.addFlashAttribute("message", "Thêm thành công");
+            customerService.save(customer);
+            return "redirect:/customer/";
         }
-        customerService.save(customer);
-        return "redirect:";
     }
 
     @GetMapping("{id}/delete")
-    public String delete(@PathVariable String id){
+    public String delete(@PathVariable String id, RedirectAttributes redirectAttributes){
         customerService.delete(id);
+        redirectAttributes.addFlashAttribute("status", "delete");
+        redirectAttributes.addFlashAttribute("message", "Xóa thành công");
         return "redirect:/customer/";
     }
 
-    @GetMapping("{id}/edit")
+    @GetMapping("/edit/{id}")
     public String edit(@PathVariable String id, Model model){
         model.addAttribute("customer", customerService.findById(id));
         model.addAttribute("customerTypeList", customerTypeService.findAll());
@@ -84,19 +103,23 @@ public class CustomerController {
 //    }
 
     @GetMapping({"","/list"})
-    public ModelAndView listCustomers(@RequestParam("s") Optional<String> s, @PageableDefault(size = 2) Pageable pageable,
-                                      @RequestParam Optional<String> address){
-        Page<Customer> customers;
-        if(s.isPresent()){
-            customers = customerService.findAllByNameContaining(s.get(), pageable);
-        }else if(address.isPresent()) {
-            customers = customerService.findAllByAddressContaining(address.get(), pageable);
-        }else {
-            customers = customerService.findAll(pageable);
-        }
+    public ModelAndView listCustomers(){
+        List<Customer> customers = customerService.findAll();
+        List<CustomerType> customerTypeList = customerTypeService.findAll();
+//        List<City> cities = cityService.findAll();
+//        ArrayList<City> arrayList = null;
+//        arrayList.addAll(cities);
         ModelAndView modelAndView = new ModelAndView("customer/list");
         modelAndView.addObject("customers", customers);
+        modelAndView.addObject("customer", new Customer());
+        modelAndView.addObject("customerTypeList", customerTypeList);
         return modelAndView;
+    }
+
+    @GetMapping("/view/{id}")
+    public String view(@PathVariable String id, Model model){
+        model.addAttribute("customer", customerService.findById(id));
+        return "customer/view";
     }
 
     @InitBinder

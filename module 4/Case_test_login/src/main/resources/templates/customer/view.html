@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table class="table table-striped table-inverse table-responsive table-hover table-bordered">
+    <tbody>
+    <tr>
+        <td scope="row"></td>
+        <td>ID</td>
+        <td th:text="${customer.id}"></td>
+    </tr>
+    <tr>
+        <td scope="row"></td>
+        <td>Name</td>
+        <td th:text="${customer.name}"></td>
+    </tr>
+    <tr>
+        <td scope="row"></td>
+        <td>Type</td>
+        <td th:text="${customer.customerType.name}"></td>
+    </tr>
+    <tr>
+        <td scope="row"></td>
+        <td>Birthday</td>
+        <td th:text="${customer.date}"></td>
+    </tr>
+    <tr>
+        <td scope="row"></td>
+        <td>Gender</td>
+        <td th:text="${customer.gender}?'Nam':'Nữ'"></td>
+    </tr>
+    <tr>
+        <td scope="row"></td>
+        <td>IdCard</td>
+        <td th:text="${customer.idCard}"></td>
+    </tr>
+    <tr>
+        <td scope="row"></td>
+        <td>Phone</td>
+        <td th:text="${customer.phone}"></td>
+    </tr>
+    <tr>
+        <td scope="row"></td>
+        <td>Email</td>
+        <td th:text="${customer.email}"></td>
+    </tr>
+    <tr>
+        <td scope="row"></td>
+        <td>Address</td>
+        <td th:text="'P. '+${customer.ward}+' ,Q. '+${customer.district}+' ,TP. '+${customer.city}"></td>
+    </tr>
+    <tr>
+        <td scope="row"></td>
+        <td>Picture</td>
+        <td><img th:src="@{'/'+${customer.picture}}" height="100px" width="100px"></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
