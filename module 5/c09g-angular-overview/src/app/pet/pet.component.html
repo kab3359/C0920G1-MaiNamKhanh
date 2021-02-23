@@ -8,6 +8,7 @@
   Pet image:
   <input type="url" (change)="updateImage($event.target.value)">
 </label>
+<button class="btn btn-danger text-white">save</button>
 <br >
 <h3>Pet name: {{petName}}</h3>
 <img [src]="petImage" style="max-width: 100%">

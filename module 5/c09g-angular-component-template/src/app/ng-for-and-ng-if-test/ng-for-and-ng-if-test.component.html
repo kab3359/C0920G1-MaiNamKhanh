@@ -1,0 +1,34 @@
+<p>ng-for-and-ng-if-test works!</p>
+
+<table border="1">
+  <tr>
+    <th>No</th>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Date of birth</th>
+    <th>Gender</th>
+  </tr>
+  <tr *ngFor="let student of studentList; let i = index">
+    <td>{{i + 1}}</td>
+    <td>{{student.id}}</td>
+    <td>{{student.name}}</td>
+    <td>{{student.dateOfBirth}}</td>
+    <td>
+<!--      <span *ngIf="student.gender === 1; then thenBlock; else c09Block">-->
+<!--        do not show-->
+<!--      </span>-->
+<!--      <ng-template #thenBlock>-->
+<!--        Male-->
+<!--      </ng-template>-->
+<!--      <ng-template #c09Block>-->
+<!--        Female-->
+<!--      </ng-template>-->
+      <span *ngIf="student.gender === 1; else c09Block">
+        Male
+      </span>
+      <ng-template #c09Block>
+        Female
+      </ng-template>
+    </td>
+  </tr>
+</table>
