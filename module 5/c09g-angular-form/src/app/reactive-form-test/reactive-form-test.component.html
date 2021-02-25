@@ -1,0 +1,21 @@
+<p>reactive-form-test works!</p>
+<h2>Register student</h2>
+
+<form [formGroup]="formStudent" (ngSubmit)="getInfoStudentForm()">
+  <p>
+    Name:
+    <input type="text" formControlName="name" />
+  </p>
+  <p *ngIf="formStudent.get('name').hasError('required')
+    && formStudent.get('name').dirty" style="color: red">Required name!</p>
+  <p>
+  <p *ngIf="formStudent.get('name').hasError('pattern')
+    && formStudent.get('name').dirty" style="color: red">Invalid format name!</p>
+  <p>
+    Date of birth:
+    <input type="date" formControlName="dateOfBirth" />
+  </p>
+  <p *ngIf="formStudent.get('dateOfBirth').hasError('c09Abc')
+    && formStudent.get('dateOfBirth').dirty" style="color: red">Chua du 18 tuoi</p>
+  <input type="submit" value="Register" [disabled]="formStudent.invalid">
+</form>

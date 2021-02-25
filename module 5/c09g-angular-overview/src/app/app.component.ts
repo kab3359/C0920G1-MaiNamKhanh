@@ -1,13 +1,20 @@
 import { Component } from '@angular/core';
+import {Product} from './model/Product';
+import {ProductService} from './service/ProductService';
+import {LoggerService} from './service/LoggerService';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  providers: [ProductService, LoggerService]
 })
 export class AppComponent {
-  article = {
-    title: 'The Evolution of Async JavaScript: From Callbacks, to Promises, to Async/Await',
-    url: 'https://medium.freecodecamp.org/the-evolution-of-async-javascript-from-callbacks-to-promises-to-async-await-e73b047f2f40'
-  };
+  products: Product[];
+  constructor(private productService: ProductService) {
+  }
+
+  public getProducts(){
+    this.products = this.productService.getProducts();
+  }
 }

@@ -1,0 +1,13 @@
+<p>template-driven-form-test works!</p>
+<h2>Register Student</h2>
+<form (ngSubmit)="getInfoStudentForm(registerForm)" #registerForm="ngForm" ngNativeValidate>
+  <p>
+    Name:
+    <input ngModel name="name" type="text" required/>
+  </p>
+  <p>
+    Date of birth:
+    <input [(ngModel)]="student.dateOfBirth" name="dateOfBirth" type="date"/>
+  </p>
+  <input type="submit" value="Register" />
+</form>

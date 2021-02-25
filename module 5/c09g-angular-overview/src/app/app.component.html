@@ -7,6 +7,29 @@
 <!--<app-progress-bar width="65"></app-progress-bar>-->
 <!--<app-countdown-timer-alias></app-countdown-timer-alias>-->
 <!--<app-rating-bar></app-rating-bar>-->
-<app-todo></app-todo>
+<!--<app-todo></app-todo>-->
 <!--<app-login></app-login>-->
 <!--<app-register></app-register>-->
+<div class="container">
+  <h1 class="heading"><strong>Services</strong>Demo</h1>
+  <button type="button" (click)="getProducts()">Get Products</button>
+
+  <div class="table-reponsive">
+    <table class="table">
+      <thead>
+      <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Price</td>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let product of products">
+        <td>{{product.productId}}</td>
+        <td>{{product.name}}</td>
+        <td>{{product.price}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
