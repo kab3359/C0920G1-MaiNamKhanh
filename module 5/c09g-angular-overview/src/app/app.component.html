@@ -10,26 +10,35 @@
 <!--<app-todo></app-todo>-->
 <!--<app-login></app-login>-->
 <!--<app-register></app-register>-->
-<div class="container">
-  <h1 class="heading"><strong>Services</strong>Demo</h1>
-  <button type="button" (click)="getProducts()">Get Products</button>
+<!--<div class="container">-->
+<!--  <h1 class="heading"><strong>Services</strong>Demo</h1>-->
+<!--  <button type="button" (click)="getProducts()">Get Products</button>-->
 
-  <div class="table-reponsive">
-    <table class="table">
-      <thead>
-      <tr>
-        <td>ID</td>
-        <td>Name</td>
-        <td>Price</td>
-      </tr>
-      </thead>
-      <tbody>
-      <tr *ngFor="let product of products">
-        <td>{{product.productId}}</td>
-        <td>{{product.name}}</td>
-        <td>{{product.price}}</td>
-      </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+<!--  <div class="table-reponsive">-->
+<!--    <table class="table">-->
+<!--      <thead>-->
+<!--      <tr>-->
+<!--        <td>ID</td>-->
+<!--        <td>Name</td>-->
+<!--        <td>Price</td>-->
+<!--      </tr>-->
+<!--      </thead>-->
+<!--      <tbody>-->
+<!--      <tr *ngFor="let product of products">-->
+<!--        <td>{{product.productId}}</td>-->
+<!--        <td>{{product.name}}</td>-->
+<!--        <td>{{product.price}}</td>-->
+<!--      </tr>-->
+<!--      </tbody>-->
+<!--    </table>-->
+<!--  </div>-->
+<!--</div>-->
+<!--<nav>-->
+<!--  <a routerLink="timelines" class="link"> Ứng dụng tính thời gian </a>-->
+<!--</nav>-->
+<!--<router-outlet></router-outlet>-->
+<nav>
+  <a routerLink="youtube" class="link">Youtube</a>
+</nav>
+<a routerLink="dictionary" class="link">Dictionary</a>
+<router-outlet></router-outlet>

@@ -1,0 +1,48 @@
+{
+  "customer": [
+    {
+      "id": 1,
+      "type": "Vip",
+      "name": "Trần Văn Quang",
+      "birthday": "04/05/2000",
+      "idCard": "111 555 444",
+      "phone": "090874554",
+      "email": "abc@abc.abc",
+      "address": "Đà Nẵng"
+    },
+    {
+      "id": 2,
+      "type": "Diamond",
+      "name": "Văn Thành Long",
+      "birthday": "05/06/1990",
+      "idCard": "555 554 789",
+      "phone": "09077851235",
+      "email": "abc@abc.abc",
+      "address": "Huế"
+    },
+    {
+      "id": 3,
+      "type": "Gold",
+      "name": "Đỗ Thị Phượng",
+      "birthday": "12/12/1996",
+      "idCard": "445 555 123",
+      "phone": "0901153878",
+      "email": "aer@abc.abc",
+      "address": "Hà Nội"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Sebastian",
+      "position": "Nommand",
+      "educationDegree": "123 Subway, NDC",
+      "birthday": "123 Subway, NDC",
+      "idCard": "123 Subway, NDC",
+      "salary": "123 Subway, NDC",
+      "phone": "123 Subway, NDC",
+      "email": "123 Subway, NDC",
+      "address": "123 Subway, NDC"
+    }
+  ]
+}

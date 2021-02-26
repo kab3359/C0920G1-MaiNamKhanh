@@ -15,6 +15,14 @@ import { RatingBarComponent } from './rating-bar/rating-bar.component';
 import { TodoComponent } from './todo/todo.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { TimelinesComponent } from './timelines/timelines.component';
+import {RouterModule} from '@angular/router';
+import {AppRoutingModule} from './app-routing.module';
+import { YoutubePlaylistComponent } from './youtube-playlist/youtube-playlist.component';
+import { YoutubePlayerComponent } from './youtube-player/youtube-player.component';
+import {YoutubeRoutingModule} from './youtube-routing.module';
+import { DictionaryDetailComponent } from './dictionary-detail/dictionary-detail.component';
+import { DictionaryPageComponent } from './dictionary-page/dictionary-page.component';
 
 @NgModule({
   declarations: [
@@ -30,13 +38,21 @@ import { RegisterComponent } from './register/register.component';
     RatingBarComponent,
     TodoComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    TimelinesComponent,
+    YoutubePlaylistComponent,
+    YoutubePlayerComponent,
+    DictionaryDetailComponent,
+    DictionaryPageComponent
   ],
-    imports: [
-        BrowserModule,
-        FormsModule,
-        ReactiveFormsModule
-    ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
+    RouterModule,
+    AppRoutingModule,
+    YoutubeRoutingModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -1,0 +1,37 @@
+<div class="row justify-content-between container-fluid mt-5 mb-3">
+  <h2>List All Customer</h2>
+  <div class="d-flex">
+    <input class="form-control mr-2" type="text" style="width: 300px" placeholder="Search" [(ngModel)]="term">
+  </div>
+</div>
+<button class="btn btn-success mb-3 ml-2" [routerLink]="['/customer-add']">Add New Customer</button>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <td>Id</td>
+    <td>Type</td>
+    <td>Name</td>
+    <td>Birthday</td>
+    <td>IdCard</td>
+    <td>Phone</td>
+    <td>Email</td>
+    <td>Address</td>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let customer of listCustomer |filter:term |paginate: {itemsPerPage:2, currentPage:p}">
+    <td>{{customer.id}}</td>
+    <td>{{customer.type}}</td>
+    <td>{{customer.name}}</td>
+    <td>{{customer.birthday}}</td>
+    <td>{{customer.idCard}}</td>
+    <td>{{customer.phone}}</td>
+    <td>{{customer.email}}</td>
+    <td>{{customer.address}}</td>
+  </tr>
+  </tbody>
+</table>
+<div class="d-flex justify-content-end">
+  <pagination-controls class="mr-5" (pageChange)="p = $event"></pagination-controls>
+</div>
+
